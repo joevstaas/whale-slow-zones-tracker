@@ -1,0 +1,41 @@
+name: Poll NOAA Dynamic Management Areas
+
+on:
+  schedule:
+    # Run daily at 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch: # Allow manual triggers
+
+permissions:
+  contents: write
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Poll NOAA API
+        run: python poll_dma.py
+
+      - name: Export ODP-compatible GeoJSON
+        run: python poll_dma.py --export-geojson
+
+      - name: Print history
+        run: python poll_dma.py --history
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "poll: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi

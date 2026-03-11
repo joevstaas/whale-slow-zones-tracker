@@ -1,0 +1,376 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.8400000000404,
+              41.0600000003159
+            ],
+            [
+              -70.1299999997101,
+              41.0600000003159
+            ],
+            [
+              -70.1399999996388,
+              40.5400000003177
+            ],
+            [
+              -70.8400000000404,
+              40.5400000003177
+            ],
+            [
+              -70.8400000000404,
+              41.0600000003159
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "fid": "NEFSC-3909",
+        "name": "34nm SW Nantucket MA",
+        "measure_type": "NEFSC Right Whale Slow Zone",
+        "mandatory": false,
+        "description": null,
+        "country": null,
+        "seasonality": null,
+        "start": "2026-03-11",
+        "end": "2026-03-16",
+        "speed_limit_kn": 10.0,
+        "dynamic": true,
+        "activation_trigger": "v",
+        "distance_min_m": null,
+        "vessel_len_min_m": null,
+        "taxons": "",
+        "source_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/NEFSC_Dynamic_Management_Areas/FeatureServer/0",
+        "s127_feature": "RestrictedAreaRegulatory",
+        "s127_feature_subcat": "speed restricted",
+        "provided_coordinates": "",
+        "geometry_notes": "NEFSC ID: 3909; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-11T15:03:18+00:00",
+        "updated": "2026-03-11T15:03:18+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.0400000004118,
+              42.7200000002502
+            ],
+            [
+              -70.349999999939,
+              42.7200000002502
+            ],
+            [
+              -70.3599999998677,
+              42.209999999753
+            ],
+            [
+              -71.0400000004118,
+              42.209999999753
+            ],
+            [
+              -71.0400000004118,
+              42.7200000002502
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "fid": "NEFSC-3910",
+        "name": "19nm NE Boston MA",
+        "measure_type": "NEFSC Right Whale Slow Zone",
+        "mandatory": false,
+        "description": null,
+        "country": null,
+        "seasonality": null,
+        "start": "2026-03-11",
+        "end": "2026-03-17",
+        "speed_limit_kn": 10.0,
+        "dynamic": true,
+        "activation_trigger": "a",
+        "distance_min_m": null,
+        "vessel_len_min_m": null,
+        "taxons": "",
+        "source_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/NEFSC_Dynamic_Management_Areas/FeatureServer/0",
+        "s127_feature": "RestrictedAreaRegulatory",
+        "s127_feature_subcat": "speed restricted",
+        "provided_coordinates": "",
+        "geometry_notes": "NEFSC ID: 3910; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-11T15:03:18+00:00",
+        "updated": "2026-03-11T15:03:18+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.3999999995826,
+              40.9099999999285
+            ],
+            [
+              -69.4699999999217,
+              40.9099999999285
+            ],
+            [
+              -69.4699999999217,
+              40.3499999997957
+            ],
+            [
+              -70.3899999996539,
+              40.3499999997957
+            ],
+            [
+              -70.3999999995826,
+              40.9099999999285
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "fid": "NEFSC-3911",
+        "name": "40nm S Nantucket MA",
+        "measure_type": "NEFSC Right Whale Slow Zone",
+        "mandatory": false,
+        "description": null,
+        "country": null,
+        "seasonality": null,
+        "start": "2026-03-11",
+        "end": "2026-03-18",
+        "speed_limit_kn": 10.0,
+        "dynamic": true,
+        "activation_trigger": "v",
+        "distance_min_m": null,
+        "vessel_len_min_m": null,
+        "taxons": "",
+        "source_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/NEFSC_Dynamic_Management_Areas/FeatureServer/0",
+        "s127_feature": "RestrictedAreaRegulatory",
+        "s127_feature_subcat": "speed restricted",
+        "provided_coordinates": "",
+        "geometry_notes": "NEFSC ID: 3911; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-11T15:03:18+00:00",
+        "updated": "2026-03-11T15:03:18+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.6100000000037,
+              40.5799999998132
+            ],
+            [
+              -71.9500000002153,
+              40.5799999998132
+            ],
+            [
+              -71.9500000002153,
+              40.0700000001895
+            ],
+            [
+              -72.6100000000037,
+              40.0700000001895
+            ],
+            [
+              -72.6100000000037,
+              40.5799999998132
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "fid": "NEFSC-3912",
+        "name": "82nm E New York NY",
+        "measure_type": "NEFSC Right Whale Slow Zone",
+        "mandatory": false,
+        "description": null,
+        "country": null,
+        "seasonality": null,
+        "start": "2026-03-11",
+        "end": "2026-03-18",
+        "speed_limit_kn": 10.0,
+        "dynamic": true,
+        "activation_trigger": "a",
+        "distance_min_m": null,
+        "vessel_len_min_m": null,
+        "taxons": "",
+        "source_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/NEFSC_Dynamic_Management_Areas/FeatureServer/0",
+        "s127_feature": "RestrictedAreaRegulatory",
+        "s127_feature_subcat": "speed restricted",
+        "provided_coordinates": "",
+        "geometry_notes": "NEFSC ID: 3912; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-11T15:03:18+00:00",
+        "updated": "2026-03-11T15:03:18+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.4600000002347,
+              39.9999999999781
+            ],
+            [
+              -72.8000000004463,
+              39.9999999999781
+            ],
+            [
+              -72.8100000003751,
+              39.490000000014
+            ],
+            [
+              -73.4600000002347,
+              39.490000000014
+            ],
+            [
+              -73.4600000002347,
+              39.9999999999781
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "fid": "NEFSC-3913",
+        "name": "64nm E Atlantic City NJ",
+        "measure_type": "NEFSC Right Whale Slow Zone",
+        "mandatory": false,
+        "description": null,
+        "country": null,
+        "seasonality": null,
+        "start": "2026-03-11",
+        "end": "2026-03-19",
+        "speed_limit_kn": 10.0,
+        "dynamic": true,
+        "activation_trigger": "a",
+        "distance_min_m": null,
+        "vessel_len_min_m": null,
+        "taxons": "",
+        "source_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/NEFSC_Dynamic_Management_Areas/FeatureServer/0",
+        "s127_feature": "RestrictedAreaRegulatory",
+        "s127_feature_subcat": "speed restricted",
+        "provided_coordinates": "",
+        "geometry_notes": "NEFSC ID: 3913; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-11T15:03:18+00:00",
+        "updated": "2026-03-11T15:03:18+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.3400000001915,
+              39.7199999999838
+            ],
+            [
+              -72.6800000004031,
+              39.7199999999838
+            ],
+            [
+              -72.6800000004031,
+              39.2100000000683
+            ],
+            [
+              -73.3400000001915,
+              39.2100000000683
+            ],
+            [
+              -73.3400000001915,
+              39.7199999999838
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "fid": "NEFSC-3914",
+        "name": "66nm E Atlantic City NJ",
+        "measure_type": "NEFSC Right Whale Slow Zone",
+        "mandatory": false,
+        "description": null,
+        "country": null,
+        "seasonality": null,
+        "start": "2026-03-11",
+        "end": "2026-03-22",
+        "speed_limit_kn": 10.0,
+        "dynamic": true,
+        "activation_trigger": "a",
+        "distance_min_m": null,
+        "vessel_len_min_m": null,
+        "taxons": "",
+        "source_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/NEFSC_Dynamic_Management_Areas/FeatureServer/0",
+        "s127_feature": "RestrictedAreaRegulatory",
+        "s127_feature_subcat": "speed restricted",
+        "provided_coordinates": "",
+        "geometry_notes": "NEFSC ID: 3914; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-11T15:03:18+00:00",
+        "updated": "2026-03-11T15:03:18+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.970000000254,
+              38.5600000001883
+            ],
+            [
+              -74.3200000003944,
+              38.5600000001883
+            ],
+            [
+              -74.3200000003944,
+              38.0499999998171
+            ],
+            [
+              -74.9600000003253,
+              38.0499999998171
+            ],
+            [
+              -74.970000000254,
+              38.5600000001883
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "fid": "NEFSC-3915",
+        "name": "21nm E Ocean City MD",
+        "measure_type": "NEFSC Right Whale Slow Zone",
+        "mandatory": false,
+        "description": null,
+        "country": null,
+        "seasonality": null,
+        "start": "2026-03-11",
+        "end": "2026-03-24",
+        "speed_limit_kn": 10.0,
+        "dynamic": true,
+        "activation_trigger": "a",
+        "distance_min_m": null,
+        "vessel_len_min_m": null,
+        "taxons": "",
+        "source_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/NEFSC_Dynamic_Management_Areas/FeatureServer/0",
+        "s127_feature": "RestrictedAreaRegulatory",
+        "s127_feature_subcat": "speed restricted",
+        "provided_coordinates": "",
+        "geometry_notes": "NEFSC ID: 3915; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-11T15:03:18+00:00",
+        "updated": "2026-03-11T15:03:18+00:00"
+      }
+    }
+  ]
+}
