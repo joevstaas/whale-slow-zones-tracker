@@ -1,14 +1,15 @@
 {
-  "zones": {
-    "3909": {
-      "id": 3909,
-      "name": "34nm SW Nantucket MA",
-      "trigger_type": "v",
-      "expiration_date": "16-MAR-2026 00:00:01",
-      "first_seen": "2026-03-11T15:03:18+00:00",
-      "last_seen": "2026-03-11T15:10:13+00:00",
-      "cancelled": null,
-      "comments": null,
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -36,18 +37,21 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "properties": {
+        "OBJECTID": 1,
+        "COMMENTS": null,
+        "NAME": "34nm SW Nantucket MA",
+        "ID": 3909,
+        "EXPDATE": "16-MAR-2026 00:00:01",
+        "TRIGGERTYPE": "v",
+        "CANCELLED": null,
+        "Shape__Area": 6001302963,
+        "Shape__Length": 309906.5183229548
+      }
     },
-    "3910": {
-      "id": 3910,
-      "name": "19nm NE Boston MA",
-      "trigger_type": "a",
-      "expiration_date": "17-MAR-2026 00:00:01",
-      "first_seen": "2026-03-11T15:03:18+00:00",
-      "last_seen": "2026-03-11T15:10:13+00:00",
-      "cancelled": null,
-      "comments": null,
+    {
+      "type": "Feature",
+      "id": 2,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -75,18 +79,21 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "properties": {
+        "OBJECTID": 2,
+        "COMMENTS": null,
+        "NAME": "19nm NE Boston MA",
+        "ID": 3910,
+        "EXPDATE": "17-MAR-2026 00:00:01",
+        "TRIGGERTYPE": "a",
+        "CANCELLED": null,
+        "Shape__Area": 5868581933.769531,
+        "Shape__Length": 306437.9965158897
+      }
     },
-    "3911": {
-      "id": 3911,
-      "name": "40nm S Nantucket MA",
-      "trigger_type": "v",
-      "expiration_date": "18-MAR-2026 00:00:01",
-      "first_seen": "2026-03-11T15:03:18+00:00",
-      "last_seen": "2026-03-11T15:10:13+00:00",
-      "cancelled": null,
-      "comments": null,
+    {
+      "type": "Feature",
+      "id": 3,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -114,18 +121,21 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "properties": {
+        "OBJECTID": 3,
+        "COMMENTS": null,
+        "NAME": "40nm S Nantucket MA",
+        "ID": 3911,
+        "EXPDATE": "18-MAR-2026 00:00:01",
+        "TRIGGERTYPE": "v",
+        "CANCELLED": null,
+        "Shape__Area": 8458132275.578125,
+        "Shape__Length": 370231.18447149417
+      }
     },
-    "3912": {
-      "id": 3912,
-      "name": "82nm E New York NY",
-      "trigger_type": "a",
-      "expiration_date": "18-MAR-2026 00:00:01",
-      "first_seen": "2026-03-11T15:03:18+00:00",
-      "last_seen": "2026-03-11T15:10:13+00:00",
-      "cancelled": null,
-      "comments": null,
+    {
+      "type": "Feature",
+      "id": 4,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -153,18 +163,21 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "properties": {
+        "OBJECTID": 4,
+        "COMMENTS": null,
+        "NAME": "82nm E New York NY",
+        "ID": 3912,
+        "EXPDATE": "18-MAR-2026 00:00:01",
+        "TRIGGERTYPE": "a",
+        "CANCELLED": null,
+        "Shape__Area": 5471231569.703125,
+        "Shape__Length": 295877.8170000054
+      }
     },
-    "3913": {
-      "id": 3913,
-      "name": "64nm E Atlantic City NJ",
-      "trigger_type": "a",
-      "expiration_date": "19-MAR-2026 00:00:01",
-      "first_seen": "2026-03-11T15:03:18+00:00",
-      "last_seen": "2026-03-11T15:10:13+00:00",
-      "cancelled": null,
-      "comments": null,
+    {
+      "type": "Feature",
+      "id": 5,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -192,18 +205,21 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "properties": {
+        "OBJECTID": 5,
+        "COMMENTS": null,
+        "NAME": "64nm E Atlantic City NJ",
+        "ID": 3913,
+        "EXPDATE": "19-MAR-2026 00:00:01",
+        "TRIGGERTYPE": "a",
+        "CANCELLED": null,
+        "Shape__Area": 5383798435.746094,
+        "Shape__Length": 293511.6848563824
+      }
     },
-    "3914": {
-      "id": 3914,
-      "name": "66nm E Atlantic City NJ",
-      "trigger_type": "a",
-      "expiration_date": "22-MAR-2026 00:00:01",
-      "first_seen": "2026-03-11T15:03:18+00:00",
-      "last_seen": "2026-03-11T15:10:13+00:00",
-      "cancelled": null,
-      "comments": null,
+    {
+      "type": "Feature",
+      "id": 6,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -231,18 +247,21 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "properties": {
+        "OBJECTID": 6,
+        "COMMENTS": null,
+        "NAME": "66nm E Atlantic City NJ",
+        "ID": 3914,
+        "EXPDATE": "22-MAR-2026 00:00:01",
+        "TRIGGERTYPE": "a",
+        "CANCELLED": null,
+        "Shape__Area": 5403004122.9921875,
+        "Shape__Length": 294020.551599998
+      }
     },
-    "3915": {
-      "id": 3915,
-      "name": "21nm E Ocean City MD",
-      "trigger_type": "a",
-      "expiration_date": "24-MAR-2026 00:00:01",
-      "first_seen": "2026-03-11T15:03:18+00:00",
-      "last_seen": "2026-03-11T15:10:13+00:00",
-      "cancelled": null,
-      "comments": null,
+    {
+      "type": "Feature",
+      "id": 7,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -270,34 +289,17 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
-    }
-  },
-  "polls": [
-    {
-      "timestamp": "2026-03-11T15:03:18+00:00",
-      "active_zone_ids": [
-        "3909",
-        "3910",
-        "3911",
-        "3912",
-        "3913",
-        "3914",
-        "3915"
-      ]
-    },
-    {
-      "timestamp": "2026-03-11T15:10:13+00:00",
-      "active_zone_ids": [
-        "3909",
-        "3910",
-        "3911",
-        "3912",
-        "3913",
-        "3914",
-        "3915"
-      ]
+      "properties": {
+        "OBJECTID": 7,
+        "COMMENTS": null,
+        "NAME": "21nm E Ocean City MD",
+        "ID": 3915,
+        "EXPDATE": "24-MAR-2026 00:00:01",
+        "TRIGGERTYPE": "a",
+        "CANCELLED": null,
+        "Shape__Area": 5194688997.433594,
+        "Shape__Length": 288307.40513389045
+      }
     }
   ]
 }
