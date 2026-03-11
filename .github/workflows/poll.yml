@@ -25,6 +25,9 @@ jobs:
       - name: Export ODP-compatible GeoJSON
         run: python poll_dma.py --export-geojson
 
+      - name: Export CSV
+        run: python poll_dma.py --export-csv
+
       - name: Print history
         run: python poll_dma.py --history
 

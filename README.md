@@ -61,6 +61,24 @@ ODP schema fields mapped:
 | `geometry_notes` | NEFSC ID, cancellation status, first/last seen timestamps |
 | `updated` | `last_seen` timestamp |
 
+### `data/dma_history.csv`
+The same data as a flat CSV — renders nicely as a table on GitHub. Columns:
+
+| Column | Description |
+|---|---|
+| `id` | NEFSC zone ID |
+| `name` | Location description |
+| `trigger_type` | `v` (visual) or `a` (acoustic) |
+| `status` | `active` or `expired_or_cancelled` |
+| `first_seen` | When the poller first detected the zone |
+| `last_seen` | Last poll where the zone was still active |
+| `gone_since` | First poll where the zone was no longer active |
+| `expiration_date` | NOAA's stated expiration |
+| `cancelled` | NOAA cancellation flag |
+| `speed_limit_kn` | Speed limit (always 10 kn) |
+| `bbox_south/north/west/east` | Bounding box of the zone polygon |
+| `comments` | NOAA comments |
+
 ### `data/snapshots/`
 Raw GeoJSON responses from each poll, timestamped. Useful for auditing and debugging.
 
@@ -71,7 +89,7 @@ A GitHub Actions workflow runs daily at 06:00 UTC:
 1. Fetches all currently active zones from the NOAA API
 2. Compares against known zones in `dma_history.json`
 3. Records new zones (with `first_seen` timestamp) and marks disappeared zones (with `gone_since` timestamp)
-4. Exports the updated ODP-compatible GeoJSON
+4. Exports the updated ODP-compatible GeoJSON and CSV
 5. Commits and pushes changes
 
 You can also trigger a poll manually from the Actions tab.
@@ -87,6 +105,9 @@ python poll_dma.py --history
 
 # Export ODP-compatible GeoJSON
 python poll_dma.py --export-geojson
+
+# Export CSV
+python poll_dma.py --export-csv
 ```
 
 No dependencies beyond Python 3.10+ standard library.

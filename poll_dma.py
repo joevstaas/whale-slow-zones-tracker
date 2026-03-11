@@ -13,8 +13,10 @@ Usage:
     python poll_dma.py                  # Run a single poll
     python poll_dma.py --history        # Print history table
     python poll_dma.py --export-geojson # Export history as ODP-compatible GeoJSON
+    python poll_dma.py --export-csv     # Export history as CSV
 """
 
+import csv
 import json
 import os
 import sys
@@ -32,6 +34,7 @@ DATA_DIR = Path(__file__).parent / "data"
 HISTORY_FILE = DATA_DIR / "dma_history.json"
 SNAPSHOT_DIR = DATA_DIR / "snapshots"
 EXPORT_FILE = DATA_DIR / "dma_history.geojson"
+CSV_FILE = DATA_DIR / "dma_history.csv"
 
 
 def fetch_active_zones() -> dict:
@@ -225,10 +228,82 @@ def export_geojson():
     print(f"Exported {len(features)} zones to {EXPORT_FILE}")
 
 
+def export_csv():
+    """Export history as a CSV file for easy viewing on GitHub."""
+    history = load_history()
+    if not history["zones"]:
+        print("No history yet. Run a poll first.")
+        return
+
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    fieldnames = [
+        "id",
+        "name",
+        "trigger_type",
+        "status",
+        "first_seen",
+        "last_seen",
+        "gone_since",
+        "expiration_date",
+        "cancelled",
+        "speed_limit_kn",
+        "bbox_south",
+        "bbox_north",
+        "bbox_west",
+        "bbox_east",
+        "comments",
+    ]
+
+    with open(CSV_FILE, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+
+        for zone_id in sorted(history["zones"], key=lambda k: int(k)):
+            z = history["zones"][zone_id]
+
+            # Compute bounding box from geometry
+            coords = z.get("geometry", {}).get("coordinates", [[]])
+            if z.get("geometry", {}).get("type") == "MultiPolygon":
+                all_pts = [pt for poly in coords for ring in poly for pt in ring]
+            else:
+                all_pts = [pt for ring in coords for pt in ring]
+
+            if all_pts:
+                lons = [pt[0] for pt in all_pts]
+                lats = [pt[1] for pt in all_pts]
+                bbox_south, bbox_north = round(min(lats), 4), round(max(lats), 4)
+                bbox_west, bbox_east = round(min(lons), 4), round(max(lons), 4)
+            else:
+                bbox_south = bbox_north = bbox_west = bbox_east = None
+
+            writer.writerow({
+                "id": z["id"],
+                "name": z["name"],
+                "trigger_type": z["trigger_type"],
+                "status": z["status"],
+                "first_seen": z["first_seen"],
+                "last_seen": z["last_seen"],
+                "gone_since": z["gone_since"] or "",
+                "expiration_date": z["expiration_date"],
+                "cancelled": z["cancelled"] or "",
+                "speed_limit_kn": 10.0,
+                "bbox_south": bbox_south,
+                "bbox_north": bbox_north,
+                "bbox_west": bbox_west,
+                "bbox_east": bbox_east,
+                "comments": z["comments"] or "",
+            })
+
+    print(f"Exported {len(history['zones'])} zones to {CSV_FILE}")
+
+
 if __name__ == "__main__":
     if "--history" in sys.argv:
         print_history()
     elif "--export-geojson" in sys.argv:
         export_geojson()
+    elif "--export-csv" in sys.argv:
+        export_csv()
     else:
         poll()
