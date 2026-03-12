@@ -19,6 +19,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
       - name: Poll NOAA API
         run: python poll_dma.py
 
@@ -30,6 +33,12 @@ jobs:
 
       - name: Print history
         run: python poll_dma.py --history
+
+      - name: Ingest to ODP
+        env:
+          ODP_API_KEY: ${{ secrets.ODP_API_KEY }}
+        run: python odp_ingest.py
+        continue-on-error: true
 
       - name: Commit changes
         run: |
