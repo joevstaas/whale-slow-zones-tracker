@@ -75,8 +75,8 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "status": "expired_or_cancelled",
+      "gone_since": "2026-03-17T07:13:38+00:00"
     },
     "3911": {
       "id": 3911,
@@ -84,7 +84,7 @@
       "trigger_type": "v",
       "expiration_date": "18-MAR-2026 00:00:01",
       "first_seen": "2026-03-11T15:03:18+00:00",
-      "last_seen": "2026-03-16T07:41:11+00:00",
+      "last_seen": "2026-03-17T07:13:38+00:00",
       "cancelled": "extended",
       "comments": null,
       "geometry": {
@@ -123,7 +123,7 @@
       "trigger_type": "a",
       "expiration_date": "18-MAR-2026 00:00:01",
       "first_seen": "2026-03-11T15:03:18+00:00",
-      "last_seen": "2026-03-16T07:41:11+00:00",
+      "last_seen": "2026-03-17T07:13:38+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -162,7 +162,7 @@
       "trigger_type": "a",
       "expiration_date": "19-MAR-2026 00:00:01",
       "first_seen": "2026-03-11T15:03:18+00:00",
-      "last_seen": "2026-03-16T07:41:11+00:00",
+      "last_seen": "2026-03-17T07:13:38+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -201,7 +201,7 @@
       "trigger_type": "a",
       "expiration_date": "22-MAR-2026 00:00:01",
       "first_seen": "2026-03-11T15:03:18+00:00",
-      "last_seen": "2026-03-16T07:41:11+00:00",
+      "last_seen": "2026-03-17T07:13:38+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -240,7 +240,7 @@
       "trigger_type": "a",
       "expiration_date": "24-MAR-2026 00:00:01",
       "first_seen": "2026-03-11T15:03:18+00:00",
-      "last_seen": "2026-03-16T07:41:11+00:00",
+      "last_seen": "2026-03-17T07:13:38+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -279,7 +279,7 @@
       "trigger_type": "v",
       "expiration_date": "27-MAR-2026 00:00:01",
       "first_seen": "2026-03-13T07:04:19+00:00",
-      "last_seen": "2026-03-16T07:41:11+00:00",
+      "last_seen": "2026-03-17T07:13:38+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -318,7 +318,7 @@
       "trigger_type": "v",
       "expiration_date": "27-MAR-2026 00:00:01",
       "first_seen": "2026-03-13T07:04:19+00:00",
-      "last_seen": "2026-03-16T07:41:11+00:00",
+      "last_seen": "2026-03-17T07:13:38+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -357,7 +357,7 @@
       "trigger_type": "a",
       "expiration_date": "29-MAR-2026 00:00:01",
       "first_seen": "2026-03-15T07:08:18+00:00",
-      "last_seen": "2026-03-16T07:41:11+00:00",
+      "last_seen": "2026-03-17T07:13:38+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -383,6 +383,84 @@
             [
               -71.0400000004118,
               42.7200000002502
+            ]
+          ]
+        ]
+      },
+      "status": "active",
+      "gone_since": null
+    },
+    "3919": {
+      "id": 3919,
+      "name": "49nm SE Nantucket MA",
+      "trigger_type": "v",
+      "expiration_date": "31-MAR-2026 00:00:01",
+      "first_seen": "2026-03-17T07:13:38+00:00",
+      "last_seen": "2026-03-17T07:13:38+00:00",
+      "cancelled": null,
+      "comments": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -69.7199999999368,
+              40.9399999998407
+            ],
+            [
+              -69.040000000291,
+              40.9399999998407
+            ],
+            [
+              -69.040000000291,
+              40.3900000002371
+            ],
+            [
+              -69.7199999999368,
+              40.3900000002371
+            ],
+            [
+              -69.7199999999368,
+              40.9399999998407
+            ]
+          ]
+        ]
+      },
+      "status": "active",
+      "gone_since": null
+    },
+    "3920": {
+      "id": 3920,
+      "name": "57nm E Atlantic City NJ",
+      "trigger_type": "a",
+      "expiration_date": "01-APR-2026 00:00:01",
+      "first_seen": "2026-03-17T07:13:38+00:00",
+      "last_seen": "2026-03-17T07:13:38+00:00",
+      "cancelled": null,
+      "comments": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.5700000003491,
+              39.3499999997628
+            ],
+            [
+              -72.9099999996624,
+              39.3499999997628
+            ],
+            [
+              -72.9199999995912,
+              38.8400000001504
+            ],
+            [
+              -73.5600000004204,
+              38.8400000001504
+            ],
+            [
+              -73.5700000003491,
+              39.3499999997628
             ]
           ]
         ]
@@ -507,6 +585,21 @@
         "3916",
         "3917",
         "3918"
+      ]
+    },
+    {
+      "timestamp": "2026-03-17T07:13:38+00:00",
+      "active_zone_ids": [
+        "3911",
+        "3912",
+        "3913",
+        "3914",
+        "3915",
+        "3916",
+        "3917",
+        "3918",
+        "3919",
+        "3920"
       ]
     }
   ]

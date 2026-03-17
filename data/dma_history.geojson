@@ -103,7 +103,7 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3910; Cancelled: extended; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-16T07:41:11+00:00",
+        "geometry_notes": "NEFSC ID: 3910; Cancelled: extended; Status: expired_or_cancelled; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-16T07:41:11+00:00; Gone since: 2026-03-17T07:13:38+00:00",
         "updated": "2026-03-16T07:41:11+00:00"
       }
     },
@@ -156,8 +156,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3911; Cancelled: extended; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-16T07:41:11+00:00",
-        "updated": "2026-03-16T07:41:11+00:00"
+        "geometry_notes": "NEFSC ID: 3911; Cancelled: extended; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-17T07:13:38+00:00",
+        "updated": "2026-03-17T07:13:38+00:00"
       }
     },
     {
@@ -209,8 +209,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3912; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-16T07:41:11+00:00",
-        "updated": "2026-03-16T07:41:11+00:00"
+        "geometry_notes": "NEFSC ID: 3912; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-17T07:13:38+00:00",
+        "updated": "2026-03-17T07:13:38+00:00"
       }
     },
     {
@@ -262,8 +262,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3913; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-16T07:41:11+00:00",
-        "updated": "2026-03-16T07:41:11+00:00"
+        "geometry_notes": "NEFSC ID: 3913; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-17T07:13:38+00:00",
+        "updated": "2026-03-17T07:13:38+00:00"
       }
     },
     {
@@ -315,8 +315,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3914; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-16T07:41:11+00:00",
-        "updated": "2026-03-16T07:41:11+00:00"
+        "geometry_notes": "NEFSC ID: 3914; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-17T07:13:38+00:00",
+        "updated": "2026-03-17T07:13:38+00:00"
       }
     },
     {
@@ -368,8 +368,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3915; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-16T07:41:11+00:00",
-        "updated": "2026-03-16T07:41:11+00:00"
+        "geometry_notes": "NEFSC ID: 3915; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-17T07:13:38+00:00",
+        "updated": "2026-03-17T07:13:38+00:00"
       }
     },
     {
@@ -421,8 +421,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3916; Cancelled: None; Status: active; First seen: 2026-03-13T07:04:19+00:00; Last seen: 2026-03-16T07:41:11+00:00",
-        "updated": "2026-03-16T07:41:11+00:00"
+        "geometry_notes": "NEFSC ID: 3916; Cancelled: None; Status: active; First seen: 2026-03-13T07:04:19+00:00; Last seen: 2026-03-17T07:13:38+00:00",
+        "updated": "2026-03-17T07:13:38+00:00"
       }
     },
     {
@@ -474,8 +474,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3917; Cancelled: None; Status: active; First seen: 2026-03-13T07:04:19+00:00; Last seen: 2026-03-16T07:41:11+00:00",
-        "updated": "2026-03-16T07:41:11+00:00"
+        "geometry_notes": "NEFSC ID: 3917; Cancelled: None; Status: active; First seen: 2026-03-13T07:04:19+00:00; Last seen: 2026-03-17T07:13:38+00:00",
+        "updated": "2026-03-17T07:13:38+00:00"
       }
     },
     {
@@ -527,8 +527,114 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3918; Cancelled: None; Status: active; First seen: 2026-03-15T07:08:18+00:00; Last seen: 2026-03-16T07:41:11+00:00",
-        "updated": "2026-03-16T07:41:11+00:00"
+        "geometry_notes": "NEFSC ID: 3918; Cancelled: None; Status: active; First seen: 2026-03-15T07:08:18+00:00; Last seen: 2026-03-17T07:13:38+00:00",
+        "updated": "2026-03-17T07:13:38+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -69.7199999999368,
+              40.9399999998407
+            ],
+            [
+              -69.040000000291,
+              40.9399999998407
+            ],
+            [
+              -69.040000000291,
+              40.3900000002371
+            ],
+            [
+              -69.7199999999368,
+              40.3900000002371
+            ],
+            [
+              -69.7199999999368,
+              40.9399999998407
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "fid": "NEFSC-3919",
+        "name": "49nm SE Nantucket MA",
+        "measure_type": "NEFSC Right Whale Slow Zone",
+        "mandatory": false,
+        "description": null,
+        "country": null,
+        "seasonality": null,
+        "start": "2026-03-17",
+        "end": "2026-03-31",
+        "speed_limit_kn": 10.0,
+        "dynamic": true,
+        "activation_trigger": "v",
+        "distance_min_m": null,
+        "vessel_len_min_m": null,
+        "taxons": "",
+        "source_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/NEFSC_Dynamic_Management_Areas/FeatureServer/0",
+        "s127_feature": "RestrictedAreaRegulatory",
+        "s127_feature_subcat": "speed restricted",
+        "provided_coordinates": "",
+        "geometry_notes": "NEFSC ID: 3919; Cancelled: None; Status: active; First seen: 2026-03-17T07:13:38+00:00; Last seen: 2026-03-17T07:13:38+00:00",
+        "updated": "2026-03-17T07:13:38+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.5700000003491,
+              39.3499999997628
+            ],
+            [
+              -72.9099999996624,
+              39.3499999997628
+            ],
+            [
+              -72.9199999995912,
+              38.8400000001504
+            ],
+            [
+              -73.5600000004204,
+              38.8400000001504
+            ],
+            [
+              -73.5700000003491,
+              39.3499999997628
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "fid": "NEFSC-3920",
+        "name": "57nm E Atlantic City NJ",
+        "measure_type": "NEFSC Right Whale Slow Zone",
+        "mandatory": false,
+        "description": null,
+        "country": null,
+        "seasonality": null,
+        "start": "2026-03-17",
+        "end": "2026-04-01",
+        "speed_limit_kn": 10.0,
+        "dynamic": true,
+        "activation_trigger": "a",
+        "distance_min_m": null,
+        "vessel_len_min_m": null,
+        "taxons": "",
+        "source_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/NEFSC_Dynamic_Management_Areas/FeatureServer/0",
+        "s127_feature": "RestrictedAreaRegulatory",
+        "s127_feature_subcat": "speed restricted",
+        "provided_coordinates": "",
+        "geometry_notes": "NEFSC ID: 3920; Cancelled: None; Status: active; First seen: 2026-03-17T07:13:38+00:00; Last seen: 2026-03-17T07:13:38+00:00",
+        "updated": "2026-03-17T07:13:38+00:00"
       }
     }
   ]
