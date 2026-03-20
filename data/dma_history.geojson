@@ -315,8 +315,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3914; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-19T07:06:47+00:00",
-        "updated": "2026-03-19T07:06:47+00:00"
+        "geometry_notes": "NEFSC ID: 3914; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-20T07:04:52+00:00",
+        "updated": "2026-03-20T07:04:52+00:00"
       }
     },
     {
@@ -368,8 +368,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3915; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-19T07:06:47+00:00",
-        "updated": "2026-03-19T07:06:47+00:00"
+        "geometry_notes": "NEFSC ID: 3915; Cancelled: None; Status: active; First seen: 2026-03-11T15:03:18+00:00; Last seen: 2026-03-20T07:04:52+00:00",
+        "updated": "2026-03-20T07:04:52+00:00"
       }
     },
     {
@@ -421,8 +421,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3916; Cancelled: None; Status: active; First seen: 2026-03-13T07:04:19+00:00; Last seen: 2026-03-19T07:06:47+00:00",
-        "updated": "2026-03-19T07:06:47+00:00"
+        "geometry_notes": "NEFSC ID: 3916; Cancelled: None; Status: active; First seen: 2026-03-13T07:04:19+00:00; Last seen: 2026-03-20T07:04:52+00:00",
+        "updated": "2026-03-20T07:04:52+00:00"
       }
     },
     {
@@ -474,8 +474,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3917; Cancelled: None; Status: active; First seen: 2026-03-13T07:04:19+00:00; Last seen: 2026-03-19T07:06:47+00:00",
-        "updated": "2026-03-19T07:06:47+00:00"
+        "geometry_notes": "NEFSC ID: 3917; Cancelled: None; Status: active; First seen: 2026-03-13T07:04:19+00:00; Last seen: 2026-03-20T07:04:52+00:00",
+        "updated": "2026-03-20T07:04:52+00:00"
       }
     },
     {
@@ -527,8 +527,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3918; Cancelled: None; Status: active; First seen: 2026-03-15T07:08:18+00:00; Last seen: 2026-03-19T07:06:47+00:00",
-        "updated": "2026-03-19T07:06:47+00:00"
+        "geometry_notes": "NEFSC ID: 3918; Cancelled: None; Status: active; First seen: 2026-03-15T07:08:18+00:00; Last seen: 2026-03-20T07:04:52+00:00",
+        "updated": "2026-03-20T07:04:52+00:00"
       }
     },
     {
@@ -580,8 +580,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3919; Cancelled: None; Status: active; First seen: 2026-03-17T07:13:38+00:00; Last seen: 2026-03-19T07:06:47+00:00",
-        "updated": "2026-03-19T07:06:47+00:00"
+        "geometry_notes": "NEFSC ID: 3919; Cancelled: None; Status: active; First seen: 2026-03-17T07:13:38+00:00; Last seen: 2026-03-20T07:04:52+00:00",
+        "updated": "2026-03-20T07:04:52+00:00"
       }
     },
     {
@@ -633,8 +633,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3920; Cancelled: None; Status: active; First seen: 2026-03-17T07:13:38+00:00; Last seen: 2026-03-19T07:06:47+00:00",
-        "updated": "2026-03-19T07:06:47+00:00"
+        "geometry_notes": "NEFSC ID: 3920; Cancelled: None; Status: active; First seen: 2026-03-17T07:13:38+00:00; Last seen: 2026-03-20T07:04:52+00:00",
+        "updated": "2026-03-20T07:04:52+00:00"
       }
     }
   ]
