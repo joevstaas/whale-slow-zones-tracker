@@ -240,7 +240,7 @@
       "trigger_type": "a",
       "expiration_date": "24-MAR-2026 00:00:01",
       "first_seen": "2026-03-11T15:03:18+00:00",
-      "last_seen": "2026-03-22T06:59:57+00:00",
+      "last_seen": "2026-03-23T07:21:24+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -279,7 +279,7 @@
       "trigger_type": "v",
       "expiration_date": "27-MAR-2026 00:00:01",
       "first_seen": "2026-03-13T07:04:19+00:00",
-      "last_seen": "2026-03-22T06:59:57+00:00",
+      "last_seen": "2026-03-23T07:21:24+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -318,7 +318,7 @@
       "trigger_type": "v",
       "expiration_date": "27-MAR-2026 00:00:01",
       "first_seen": "2026-03-13T07:04:19+00:00",
-      "last_seen": "2026-03-22T06:59:57+00:00",
+      "last_seen": "2026-03-23T07:21:24+00:00",
       "cancelled": "extended",
       "comments": null,
       "geometry": {
@@ -357,7 +357,7 @@
       "trigger_type": "a",
       "expiration_date": "29-MAR-2026 00:00:01",
       "first_seen": "2026-03-15T07:08:18+00:00",
-      "last_seen": "2026-03-22T06:59:57+00:00",
+      "last_seen": "2026-03-23T07:21:24+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -396,7 +396,7 @@
       "trigger_type": "v",
       "expiration_date": "31-MAR-2026 00:00:01",
       "first_seen": "2026-03-17T07:13:38+00:00",
-      "last_seen": "2026-03-22T06:59:57+00:00",
+      "last_seen": "2026-03-23T07:21:24+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -435,7 +435,7 @@
       "trigger_type": "a",
       "expiration_date": "01-APR-2026 00:00:01",
       "first_seen": "2026-03-17T07:13:38+00:00",
-      "last_seen": "2026-03-22T06:59:57+00:00",
+      "last_seen": "2026-03-23T07:21:24+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -474,7 +474,7 @@
       "trigger_type": "v",
       "expiration_date": "05-APR-2026 00:00:01",
       "first_seen": "2026-03-21T06:55:36+00:00",
-      "last_seen": "2026-03-22T06:59:57+00:00",
+      "last_seen": "2026-03-23T07:21:24+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -500,6 +500,45 @@
             [
               -70.3999999995826,
               40.9099999999285
+            ]
+          ]
+        ]
+      },
+      "status": "active",
+      "gone_since": null
+    },
+    "3922": {
+      "id": 3922,
+      "name": "20nm SE Atlantic City NJ",
+      "trigger_type": "a",
+      "expiration_date": "07-APR-2026 00:00:01",
+      "first_seen": "2026-03-23T07:21:24+00:00",
+      "last_seen": "2026-03-23T07:21:24+00:00",
+      "cancelled": null,
+      "comments": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.50000000001,
+              39.33000000022
+            ],
+            [
+              -73.8500000001504,
+              39.33000000022
+            ],
+            [
+              -73.8500000001504,
+              38.820000000331
+            ],
+            [
+              -74.50000000001,
+              38.820000000331
+            ],
+            [
+              -74.50000000001,
+              39.33000000022
             ]
           ]
         ]
@@ -703,6 +742,19 @@
         "3919",
         "3920",
         "3921"
+      ]
+    },
+    {
+      "timestamp": "2026-03-23T07:21:24+00:00",
+      "active_zone_ids": [
+        "3915",
+        "3916",
+        "3917",
+        "3918",
+        "3919",
+        "3920",
+        "3921",
+        "3922"
       ]
     }
   ]
