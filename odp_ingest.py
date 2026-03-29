@@ -19,14 +19,17 @@ import sys
 from datetime import datetime
 
 import pyarrow as pa
+import requests
 from shapely.geometry import shape
 from shapely import wkt
 
 from odp.client import Client
+from odp.catalog_v2 import get_dataset_meta_by_name
 
 from poll_dma import EXPORT_FILE, load_history
 
-DATASET_UID = "35cedb65-495f-4245-b395-3ab1f4923622"
+COLLECTION_UID = "9e9f0fc4-3c9c-41a4-a5be-8771fcd5ec84"
+DATASET_NAME = "NEFSC Whale Slow Zones"
 
 
 def get_client() -> Client:
@@ -36,6 +39,40 @@ def get_client() -> Client:
         print("ERROR: ODP_API_KEY environment variable not set.", file=sys.stderr)
         sys.exit(1)
     return Client(api_key=api_key)
+
+
+def get_or_create_dataset(client: Client) -> str:
+    """Look up the dataset by name, or create it under the collection."""
+    existing = get_dataset_meta_by_name(client, DATASET_NAME)
+    if existing:
+        print(f"Found existing dataset: {existing.id}")
+        return existing.id
+
+    res = client._request(
+        requests.Request(
+            method="POST",
+            url=client.base_url + "/api/catalog/v2/datasets",
+            json={
+                "name": DATASET_NAME,
+                "description": "NEFSC Right Whale Dynamic Management Areas — daily snapshots of active slow zones.",
+            },
+        ),
+        retry=False,
+    )
+    res.raise_for_status()
+    dataset_id = res.json()["id"]
+
+    res2 = client._request(
+        requests.Request(
+            method="POST",
+            url=client.base_url + f"/api/catalog/v2/data-collections/{COLLECTION_UID}/datasets/{dataset_id}",
+        ),
+        retry=False,
+    )
+    res2.raise_for_status()
+
+    print(f"Created dataset {dataset_id} in collection {COLLECTION_UID}")
+    return dataset_id
 
 
 def geojson_geometry_to_wkt(geometry: dict) -> str | None:
@@ -156,7 +193,8 @@ def sync_table(ds):
 
 def main():
     client = get_client()
-    ds = client.dataset(DATASET_UID)
+    dataset_id = get_or_create_dataset(client)
+    ds = client.dataset(dataset_id)
 
     if "--file-only" in sys.argv:
         upload_geojson(ds)
