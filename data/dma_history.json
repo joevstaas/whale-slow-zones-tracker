@@ -396,8 +396,8 @@
       "trigger_type": "v",
       "expiration_date": "31-MAR-2026 00:00:01",
       "first_seen": "2026-03-17T07:13:38+00:00",
-      "last_seen": "2026-03-29T07:13:57+00:00",
-      "cancelled": null,
+      "last_seen": "2026-03-30T07:53:32+00:00",
+      "cancelled": "extended",
       "comments": null,
       "geometry": {
         "type": "Polygon",
@@ -435,7 +435,7 @@
       "trigger_type": "a",
       "expiration_date": "01-APR-2026 00:00:01",
       "first_seen": "2026-03-17T07:13:38+00:00",
-      "last_seen": "2026-03-29T07:13:57+00:00",
+      "last_seen": "2026-03-30T07:53:32+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -474,8 +474,8 @@
       "trigger_type": "v",
       "expiration_date": "05-APR-2026 00:00:01",
       "first_seen": "2026-03-21T06:55:36+00:00",
-      "last_seen": "2026-03-29T07:13:57+00:00",
-      "cancelled": null,
+      "last_seen": "2026-03-30T07:53:32+00:00",
+      "cancelled": "extended",
       "comments": null,
       "geometry": {
         "type": "Polygon",
@@ -513,7 +513,7 @@
       "trigger_type": "a",
       "expiration_date": "09-APR-2026 00:00:01",
       "first_seen": "2026-03-23T07:21:24+00:00",
-      "last_seen": "2026-03-29T07:13:57+00:00",
+      "last_seen": "2026-03-30T07:53:32+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -552,7 +552,7 @@
       "trigger_type": "a",
       "expiration_date": "09-APR-2026 00:00:01",
       "first_seen": "2026-03-25T07:11:54+00:00",
-      "last_seen": "2026-03-29T07:13:57+00:00",
+      "last_seen": "2026-03-30T07:53:32+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -591,7 +591,7 @@
       "trigger_type": "a",
       "expiration_date": "11-APR-2026 00:00:01",
       "first_seen": "2026-03-27T07:18:52+00:00",
-      "last_seen": "2026-03-29T07:13:57+00:00",
+      "last_seen": "2026-03-30T07:53:32+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -617,6 +617,123 @@
             [
               -71.0400000004118,
               42.7200000002502
+            ]
+          ]
+        ]
+      },
+      "status": "active",
+      "gone_since": null
+    },
+    "3925": {
+      "id": 3925,
+      "name": "21nm E Ocean City MD",
+      "trigger_type": "a",
+      "expiration_date": "13-APR-2026 00:00:01",
+      "first_seen": "2026-03-30T07:53:32+00:00",
+      "last_seen": "2026-03-30T07:53:32+00:00",
+      "cancelled": null,
+      "comments": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.970000000254,
+              38.5600000001883
+            ],
+            [
+              -74.3200000003944,
+              38.5600000001883
+            ],
+            [
+              -74.3200000003944,
+              38.0499999998171
+            ],
+            [
+              -74.9600000003253,
+              38.0499999998171
+            ],
+            [
+              -74.970000000254,
+              38.5600000001883
+            ]
+          ]
+        ]
+      },
+      "status": "active",
+      "gone_since": null
+    },
+    "3926": {
+      "id": 3926,
+      "name": "49nm SE Nantucket MA",
+      "trigger_type": "v",
+      "expiration_date": "14-APR-2026 00:00:01",
+      "first_seen": "2026-03-30T07:53:32+00:00",
+      "last_seen": "2026-03-30T07:53:32+00:00",
+      "cancelled": null,
+      "comments": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -69.7199999999368,
+              40.9399999998407
+            ],
+            [
+              -69.040000000291,
+              40.9399999998407
+            ],
+            [
+              -69.040000000291,
+              40.3900000002371
+            ],
+            [
+              -69.7199999999368,
+              40.3900000002371
+            ],
+            [
+              -69.7199999999368,
+              40.9399999998407
+            ]
+          ]
+        ]
+      },
+      "status": "active",
+      "gone_since": null
+    },
+    "3927": {
+      "id": 3927,
+      "name": "40nm S Nantucket MA",
+      "trigger_type": "v",
+      "expiration_date": "14-APR-2026 00:00:01",
+      "first_seen": "2026-03-30T07:53:32+00:00",
+      "last_seen": "2026-03-30T07:53:32+00:00",
+      "cancelled": null,
+      "comments": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.3999999995826,
+              40.9099999999285
+            ],
+            [
+              -69.4699999999217,
+              40.9099999999285
+            ],
+            [
+              -69.4699999999217,
+              40.3499999997957
+            ],
+            [
+              -70.3899999996539,
+              40.3499999997957
+            ],
+            [
+              -70.3999999995826,
+              40.9099999999285
             ]
           ]
         ]
@@ -905,6 +1022,20 @@
         "3922",
         "3923",
         "3924"
+      ]
+    },
+    {
+      "timestamp": "2026-03-30T07:53:32+00:00",
+      "active_zone_ids": [
+        "3919",
+        "3920",
+        "3921",
+        "3922",
+        "3923",
+        "3924",
+        "3925",
+        "3926",
+        "3927"
       ]
     }
   ]
