@@ -474,7 +474,7 @@
       "trigger_type": "v",
       "expiration_date": "05-APR-2026 00:00:01",
       "first_seen": "2026-03-21T06:55:36+00:00",
-      "last_seen": "2026-04-01T07:44:07+00:00",
+      "last_seen": "2026-04-02T07:23:17+00:00",
       "cancelled": "extended",
       "comments": null,
       "geometry": {
@@ -513,7 +513,7 @@
       "trigger_type": "a",
       "expiration_date": "09-APR-2026 00:00:01",
       "first_seen": "2026-03-23T07:21:24+00:00",
-      "last_seen": "2026-04-01T07:44:07+00:00",
+      "last_seen": "2026-04-02T07:23:17+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -552,7 +552,7 @@
       "trigger_type": "a",
       "expiration_date": "09-APR-2026 00:00:01",
       "first_seen": "2026-03-25T07:11:54+00:00",
-      "last_seen": "2026-04-01T07:44:07+00:00",
+      "last_seen": "2026-04-02T07:23:17+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -591,7 +591,7 @@
       "trigger_type": "a",
       "expiration_date": "11-APR-2026 00:00:01",
       "first_seen": "2026-03-27T07:18:52+00:00",
-      "last_seen": "2026-04-01T07:44:07+00:00",
+      "last_seen": "2026-04-02T07:23:17+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -630,7 +630,7 @@
       "trigger_type": "a",
       "expiration_date": "13-APR-2026 00:00:01",
       "first_seen": "2026-03-30T07:53:32+00:00",
-      "last_seen": "2026-04-01T07:44:07+00:00",
+      "last_seen": "2026-04-02T07:23:17+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -669,7 +669,7 @@
       "trigger_type": "v",
       "expiration_date": "14-APR-2026 00:00:01",
       "first_seen": "2026-03-30T07:53:32+00:00",
-      "last_seen": "2026-04-01T07:44:07+00:00",
+      "last_seen": "2026-04-02T07:23:17+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -708,7 +708,7 @@
       "trigger_type": "v",
       "expiration_date": "14-APR-2026 00:00:01",
       "first_seen": "2026-03-30T07:53:32+00:00",
-      "last_seen": "2026-04-01T07:44:07+00:00",
+      "last_seen": "2026-04-02T07:23:17+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1053,6 +1053,18 @@
     },
     {
       "timestamp": "2026-04-01T07:44:07+00:00",
+      "active_zone_ids": [
+        "3921",
+        "3922",
+        "3923",
+        "3924",
+        "3925",
+        "3926",
+        "3927"
+      ]
+    },
+    {
+      "timestamp": "2026-04-02T07:23:17+00:00",
       "active_zone_ids": [
         "3921",
         "3922",
