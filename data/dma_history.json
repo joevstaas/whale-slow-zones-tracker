@@ -543,8 +543,8 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "status": "expired_or_cancelled",
+      "gone_since": "2026-04-09T07:48:10+00:00"
     },
     "3923": {
       "id": 3923,
@@ -582,8 +582,8 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "status": "expired_or_cancelled",
+      "gone_since": "2026-04-09T07:48:10+00:00"
     },
     "3924": {
       "id": 3924,
@@ -591,8 +591,8 @@
       "trigger_type": "a",
       "expiration_date": "11-APR-2026 00:00:01",
       "first_seen": "2026-03-27T07:18:52+00:00",
-      "last_seen": "2026-04-08T07:45:42+00:00",
-      "cancelled": null,
+      "last_seen": "2026-04-09T07:48:10+00:00",
+      "cancelled": "extended",
       "comments": null,
       "geometry": {
         "type": "Polygon",
@@ -630,7 +630,7 @@
       "trigger_type": "a",
       "expiration_date": "13-APR-2026 00:00:01",
       "first_seen": "2026-03-30T07:53:32+00:00",
-      "last_seen": "2026-04-08T07:45:42+00:00",
+      "last_seen": "2026-04-09T07:48:10+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -669,7 +669,7 @@
       "trigger_type": "v",
       "expiration_date": "14-APR-2026 00:00:01",
       "first_seen": "2026-03-30T07:53:32+00:00",
-      "last_seen": "2026-04-08T07:45:42+00:00",
+      "last_seen": "2026-04-09T07:48:10+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -708,7 +708,7 @@
       "trigger_type": "v",
       "expiration_date": "14-APR-2026 00:00:01",
       "first_seen": "2026-03-30T07:53:32+00:00",
-      "last_seen": "2026-04-08T07:45:42+00:00",
+      "last_seen": "2026-04-09T07:48:10+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -734,6 +734,84 @@
             [
               -70.3999999995826,
               40.9099999999285
+            ]
+          ]
+        ]
+      },
+      "status": "active",
+      "gone_since": null
+    },
+    "3928": {
+      "id": 3928,
+      "name": "20nm SW Nantucket MA",
+      "trigger_type": "a",
+      "expiration_date": "23-APR-2026 00:00:01",
+      "first_seen": "2026-04-09T07:48:10+00:00",
+      "last_seen": "2026-04-09T07:48:10+00:00",
+      "cancelled": null,
+      "comments": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.6700000003535,
+              41.2499999998446
+            ],
+            [
+              -69.9899999998094,
+              41.2499999998446
+            ],
+            [
+              -69.9999999997381,
+              40.7500000002093
+            ],
+            [
+              -70.6600000004248,
+              40.7500000002093
+            ],
+            [
+              -70.6700000003535,
+              41.2499999998446
+            ]
+          ]
+        ]
+      },
+      "status": "active",
+      "gone_since": null
+    },
+    "3929": {
+      "id": 3929,
+      "name": "19nm NE Boston MA",
+      "trigger_type": "a",
+      "expiration_date": "23-APR-2026 00:00:01",
+      "first_seen": "2026-04-09T07:48:10+00:00",
+      "last_seen": "2026-04-09T07:48:10+00:00",
+      "cancelled": null,
+      "comments": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.0400000004118,
+              42.7200000002502
+            ],
+            [
+              -70.349999999939,
+              42.7200000002502
+            ],
+            [
+              -70.3599999998677,
+              42.209999999753
+            ],
+            [
+              -71.0400000004118,
+              42.209999999753
+            ],
+            [
+              -71.0400000004118,
+              42.7200000002502
             ]
           ]
         ]
@@ -1141,6 +1219,17 @@
         "3925",
         "3926",
         "3927"
+      ]
+    },
+    {
+      "timestamp": "2026-04-09T07:48:10+00:00",
+      "active_zone_ids": [
+        "3924",
+        "3925",
+        "3926",
+        "3927",
+        "3928",
+        "3929"
       ]
     }
   ]
