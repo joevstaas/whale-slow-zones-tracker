@@ -591,7 +591,7 @@
       "trigger_type": "a",
       "expiration_date": "11-APR-2026 00:00:01",
       "first_seen": "2026-03-27T07:18:52+00:00",
-      "last_seen": "2026-04-09T07:48:10+00:00",
+      "last_seen": "2026-04-10T07:51:57+00:00",
       "cancelled": "extended",
       "comments": null,
       "geometry": {
@@ -630,7 +630,7 @@
       "trigger_type": "a",
       "expiration_date": "13-APR-2026 00:00:01",
       "first_seen": "2026-03-30T07:53:32+00:00",
-      "last_seen": "2026-04-09T07:48:10+00:00",
+      "last_seen": "2026-04-10T07:51:57+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -669,7 +669,7 @@
       "trigger_type": "v",
       "expiration_date": "14-APR-2026 00:00:01",
       "first_seen": "2026-03-30T07:53:32+00:00",
-      "last_seen": "2026-04-09T07:48:10+00:00",
+      "last_seen": "2026-04-10T07:51:57+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -708,7 +708,7 @@
       "trigger_type": "v",
       "expiration_date": "14-APR-2026 00:00:01",
       "first_seen": "2026-03-30T07:53:32+00:00",
-      "last_seen": "2026-04-09T07:48:10+00:00",
+      "last_seen": "2026-04-10T07:51:57+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -747,7 +747,7 @@
       "trigger_type": "a",
       "expiration_date": "23-APR-2026 00:00:01",
       "first_seen": "2026-04-09T07:48:10+00:00",
-      "last_seen": "2026-04-09T07:48:10+00:00",
+      "last_seen": "2026-04-10T07:51:57+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -786,7 +786,7 @@
       "trigger_type": "a",
       "expiration_date": "23-APR-2026 00:00:01",
       "first_seen": "2026-04-09T07:48:10+00:00",
-      "last_seen": "2026-04-09T07:48:10+00:00",
+      "last_seen": "2026-04-10T07:51:57+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -812,6 +812,45 @@
             [
               -71.0400000004118,
               42.7200000002502
+            ]
+          ]
+        ]
+      },
+      "status": "active",
+      "gone_since": null
+    },
+    "3930": {
+      "id": 3930,
+      "name": "16nm E Boston MA",
+      "trigger_type": "v",
+      "expiration_date": "25-APR-2026 00:00:01",
+      "first_seen": "2026-04-10T07:51:57+00:00",
+      "last_seen": "2026-04-10T07:51:57+00:00",
+      "cancelled": null,
+      "comments": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.1299999997705,
+              42.6000000001495
+            ],
+            [
+              -70.3400000000102,
+              42.6000000001495
+            ],
+            [
+              -70.3400000000102,
+              42.0800000000308
+            ],
+            [
+              -71.1299999997705,
+              42.0800000000308
+            ],
+            [
+              -71.1299999997705,
+              42.6000000001495
             ]
           ]
         ]
@@ -1230,6 +1269,18 @@
         "3927",
         "3928",
         "3929"
+      ]
+    },
+    {
+      "timestamp": "2026-04-10T07:51:57+00:00",
+      "active_zone_ids": [
+        "3924",
+        "3925",
+        "3926",
+        "3927",
+        "3928",
+        "3929",
+        "3930"
       ]
     }
   ]
