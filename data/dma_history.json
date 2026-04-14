@@ -699,8 +699,8 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "status": "expired_or_cancelled",
+      "gone_since": "2026-04-14T07:57:43+00:00"
     },
     "3927": {
       "id": 3927,
@@ -738,8 +738,8 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "status": "expired_or_cancelled",
+      "gone_since": "2026-04-14T07:57:43+00:00"
     },
     "3928": {
       "id": 3928,
@@ -747,7 +747,7 @@
       "trigger_type": "a",
       "expiration_date": "23-APR-2026 00:00:01",
       "first_seen": "2026-04-09T07:48:10+00:00",
-      "last_seen": "2026-04-13T08:14:29+00:00",
+      "last_seen": "2026-04-14T07:57:43+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -786,7 +786,7 @@
       "trigger_type": "a",
       "expiration_date": "23-APR-2026 00:00:01",
       "first_seen": "2026-04-09T07:48:10+00:00",
-      "last_seen": "2026-04-13T08:14:29+00:00",
+      "last_seen": "2026-04-14T07:57:43+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -825,7 +825,7 @@
       "trigger_type": "v",
       "expiration_date": "25-APR-2026 00:00:01",
       "first_seen": "2026-04-10T07:51:57+00:00",
-      "last_seen": "2026-04-13T08:14:29+00:00",
+      "last_seen": "2026-04-14T07:57:43+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -864,7 +864,7 @@
       "trigger_type": "v",
       "expiration_date": "26-APR-2026 00:00:01",
       "first_seen": "2026-04-12T07:24:09+00:00",
-      "last_seen": "2026-04-13T08:14:29+00:00",
+      "last_seen": "2026-04-14T07:57:43+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -903,7 +903,7 @@
       "trigger_type": "v",
       "expiration_date": "26-APR-2026 00:00:01",
       "first_seen": "2026-04-12T07:24:09+00:00",
-      "last_seen": "2026-04-13T08:14:29+00:00",
+      "last_seen": "2026-04-14T07:57:43+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1390,6 +1390,16 @@
       "active_zone_ids": [
         "3926",
         "3927",
+        "3928",
+        "3929",
+        "3930",
+        "3931",
+        "3932"
+      ]
+    },
+    {
+      "timestamp": "2026-04-14T07:57:43+00:00",
+      "active_zone_ids": [
         "3928",
         "3929",
         "3930",
