@@ -747,7 +747,7 @@
       "trigger_type": "a",
       "expiration_date": "23-APR-2026 00:00:01",
       "first_seen": "2026-04-09T07:48:10+00:00",
-      "last_seen": "2026-04-21T08:03:34+00:00",
+      "last_seen": "2026-04-22T08:00:00+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -786,7 +786,7 @@
       "trigger_type": "a",
       "expiration_date": "23-APR-2026 00:00:01",
       "first_seen": "2026-04-09T07:48:10+00:00",
-      "last_seen": "2026-04-21T08:03:34+00:00",
+      "last_seen": "2026-04-22T08:00:00+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -825,7 +825,7 @@
       "trigger_type": "v",
       "expiration_date": "25-APR-2026 00:00:01",
       "first_seen": "2026-04-10T07:51:57+00:00",
-      "last_seen": "2026-04-21T08:03:34+00:00",
+      "last_seen": "2026-04-22T08:00:00+00:00",
       "cancelled": "extended",
       "comments": null,
       "geometry": {
@@ -864,7 +864,7 @@
       "trigger_type": "v",
       "expiration_date": "26-APR-2026 00:00:01",
       "first_seen": "2026-04-12T07:24:09+00:00",
-      "last_seen": "2026-04-21T08:03:34+00:00",
+      "last_seen": "2026-04-22T08:00:00+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -903,7 +903,7 @@
       "trigger_type": "v",
       "expiration_date": "26-APR-2026 00:00:01",
       "first_seen": "2026-04-12T07:24:09+00:00",
-      "last_seen": "2026-04-21T08:03:34+00:00",
+      "last_seen": "2026-04-22T08:00:00+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -942,7 +942,7 @@
       "trigger_type": "v",
       "expiration_date": "02-MAY-2026 00:00:01",
       "first_seen": "2026-04-17T07:59:03+00:00",
-      "last_seen": "2026-04-21T08:03:34+00:00",
+      "last_seen": "2026-04-22T08:00:00+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -981,7 +981,7 @@
       "trigger_type": "v",
       "expiration_date": "06-MAY-2026 00:00:01",
       "first_seen": "2026-04-21T08:03:34+00:00",
-      "last_seen": "2026-04-21T08:03:34+00:00",
+      "last_seen": "2026-04-22T08:00:00+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1007,6 +1007,162 @@
             [
               -71.1299999997705,
               42.6000000001495
+            ]
+          ]
+        ]
+      },
+      "status": "active",
+      "gone_since": null
+    },
+    "3935": {
+      "id": 3935,
+      "name": "25nm S Portsmouth NH",
+      "trigger_type": "v",
+      "expiration_date": "07-MAY-2026 00:00:01",
+      "first_seen": "2026-04-22T08:00:00+00:00",
+      "last_seen": "2026-04-22T08:00:00+00:00",
+      "cancelled": null,
+      "comments": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.9999999997986,
+              43.0300000000026
+            ],
+            [
+              -70.0800000000664,
+              43.0300000000026
+            ],
+            [
+              -70.0899999999951,
+              42.3599999999295
+            ],
+            [
+              -70.9999999997986,
+              42.3599999999295
+            ],
+            [
+              -70.9999999997986,
+              43.0300000000026
+            ]
+          ]
+        ]
+      },
+      "status": "active",
+      "gone_since": null
+    },
+    "3936": {
+      "id": 3936,
+      "name": "21nm SE Portsmouth NH",
+      "trigger_type": "v",
+      "expiration_date": "07-MAY-2026 00:00:01",
+      "first_seen": "2026-04-22T08:00:00+00:00",
+      "last_seen": "2026-04-22T08:00:00+00:00",
+      "cancelled": null,
+      "comments": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.7199999999973,
+              43.0899999998055
+            ],
+            [
+              -70.0400000003514,
+              43.0899999998055
+            ],
+            [
+              -70.0400000003514,
+              42.5899999998698
+            ],
+            [
+              -70.7199999999973,
+              42.5899999998698
+            ],
+            [
+              -70.7199999999973,
+              43.0899999998055
+            ]
+          ]
+        ]
+      },
+      "status": "active",
+      "gone_since": null
+    },
+    "3937": {
+      "id": 3937,
+      "name": "25nm S Portsmouth NH",
+      "trigger_type": "v",
+      "expiration_date": "07-MAY-2026 00:00:01",
+      "first_seen": "2026-04-22T08:00:00+00:00",
+      "last_seen": "2026-04-22T08:00:00+00:00",
+      "cancelled": null,
+      "comments": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.9999999997986,
+              43.0300000000026
+            ],
+            [
+              -70.0800000000664,
+              43.0300000000026
+            ],
+            [
+              -70.0899999999951,
+              42.3599999999295
+            ],
+            [
+              -70.9999999997986,
+              42.3599999999295
+            ],
+            [
+              -70.9999999997986,
+              43.0300000000026
+            ]
+          ]
+        ]
+      },
+      "status": "active",
+      "gone_since": null
+    },
+    "3938": {
+      "id": 3938,
+      "name": "21nm SE Portsmouth NH",
+      "trigger_type": "v",
+      "expiration_date": "07-MAY-2026 00:00:01",
+      "first_seen": "2026-04-22T08:00:00+00:00",
+      "last_seen": "2026-04-22T08:00:00+00:00",
+      "cancelled": null,
+      "comments": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.7199999999973,
+              43.0899999998055
+            ],
+            [
+              -70.0400000003514,
+              43.0899999998055
+            ],
+            [
+              -70.0400000003514,
+              42.5899999998698
+            ],
+            [
+              -70.7199999999973,
+              42.5899999998698
+            ],
+            [
+              -70.7199999999973,
+              43.0899999998055
             ]
           ]
         ]
@@ -1559,6 +1715,22 @@
         "3932",
         "3933",
         "3934"
+      ]
+    },
+    {
+      "timestamp": "2026-04-22T08:00:00+00:00",
+      "active_zone_ids": [
+        "3928",
+        "3929",
+        "3930",
+        "3931",
+        "3932",
+        "3933",
+        "3934",
+        "3935",
+        "3936",
+        "3937",
+        "3938"
       ]
     }
   ]
