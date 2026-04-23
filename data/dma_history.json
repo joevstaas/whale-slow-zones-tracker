@@ -777,8 +777,8 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "status": "expired_or_cancelled",
+      "gone_since": "2026-04-23T08:05:29+00:00"
     },
     "3929": {
       "id": 3929,
@@ -816,8 +816,8 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "status": "expired_or_cancelled",
+      "gone_since": "2026-04-23T08:05:29+00:00"
     },
     "3930": {
       "id": 3930,
@@ -825,7 +825,7 @@
       "trigger_type": "v",
       "expiration_date": "25-APR-2026 00:00:01",
       "first_seen": "2026-04-10T07:51:57+00:00",
-      "last_seen": "2026-04-22T08:00:00+00:00",
+      "last_seen": "2026-04-23T08:05:29+00:00",
       "cancelled": "extended",
       "comments": null,
       "geometry": {
@@ -864,7 +864,7 @@
       "trigger_type": "v",
       "expiration_date": "26-APR-2026 00:00:01",
       "first_seen": "2026-04-12T07:24:09+00:00",
-      "last_seen": "2026-04-22T08:00:00+00:00",
+      "last_seen": "2026-04-23T08:05:29+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -903,7 +903,7 @@
       "trigger_type": "v",
       "expiration_date": "26-APR-2026 00:00:01",
       "first_seen": "2026-04-12T07:24:09+00:00",
-      "last_seen": "2026-04-22T08:00:00+00:00",
+      "last_seen": "2026-04-23T08:05:29+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -942,7 +942,7 @@
       "trigger_type": "v",
       "expiration_date": "02-MAY-2026 00:00:01",
       "first_seen": "2026-04-17T07:59:03+00:00",
-      "last_seen": "2026-04-22T08:00:00+00:00",
+      "last_seen": "2026-04-23T08:05:29+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -981,7 +981,7 @@
       "trigger_type": "v",
       "expiration_date": "06-MAY-2026 00:00:01",
       "first_seen": "2026-04-21T08:03:34+00:00",
-      "last_seen": "2026-04-22T08:00:00+00:00",
+      "last_seen": "2026-04-23T08:05:29+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1050,8 +1050,8 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "status": "expired_or_cancelled",
+      "gone_since": "2026-04-23T08:05:29+00:00"
     },
     "3936": {
       "id": 3936,
@@ -1089,8 +1089,8 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "status": "expired_or_cancelled",
+      "gone_since": "2026-04-23T08:05:29+00:00"
     },
     "3937": {
       "id": 3937,
@@ -1098,7 +1098,7 @@
       "trigger_type": "v",
       "expiration_date": "07-MAY-2026 00:00:01",
       "first_seen": "2026-04-22T08:00:00+00:00",
-      "last_seen": "2026-04-22T08:00:00+00:00",
+      "last_seen": "2026-04-23T08:05:29+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1137,7 +1137,7 @@
       "trigger_type": "v",
       "expiration_date": "07-MAY-2026 00:00:01",
       "first_seen": "2026-04-22T08:00:00+00:00",
-      "last_seen": "2026-04-22T08:00:00+00:00",
+      "last_seen": "2026-04-23T08:05:29+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1163,6 +1163,45 @@
             [
               -70.7199999999973,
               43.0899999998055
+            ]
+          ]
+        ]
+      },
+      "status": "active",
+      "gone_since": null
+    },
+    "3939": {
+      "id": 3939,
+      "name": "20nm SW Nantucket MA",
+      "trigger_type": "a",
+      "expiration_date": "08-MAY-2026 00:00:01",
+      "first_seen": "2026-04-23T08:05:29+00:00",
+      "last_seen": "2026-04-23T08:05:29+00:00",
+      "cancelled": null,
+      "comments": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.6700000003535,
+              41.2499999998446
+            ],
+            [
+              -69.9899999998094,
+              41.2499999998446
+            ],
+            [
+              -69.9999999997381,
+              40.7500000002093
+            ],
+            [
+              -70.6600000004248,
+              40.7500000002093
+            ],
+            [
+              -70.6700000003535,
+              41.2499999998446
             ]
           ]
         ]
@@ -1731,6 +1770,19 @@
         "3936",
         "3937",
         "3938"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23T08:05:29+00:00",
+      "active_zone_ids": [
+        "3930",
+        "3931",
+        "3932",
+        "3933",
+        "3934",
+        "3937",
+        "3938",
+        "3939"
       ]
     }
   ]
