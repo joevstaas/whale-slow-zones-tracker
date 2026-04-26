@@ -894,8 +894,8 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "status": "expired_or_cancelled",
+      "gone_since": "2026-04-26T07:48:14+00:00"
     },
     "3932": {
       "id": 3932,
@@ -933,8 +933,8 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "status": "expired_or_cancelled",
+      "gone_since": "2026-04-26T07:48:14+00:00"
     },
     "3933": {
       "id": 3933,
@@ -942,7 +942,7 @@
       "trigger_type": "v",
       "expiration_date": "02-MAY-2026 00:00:01",
       "first_seen": "2026-04-17T07:59:03+00:00",
-      "last_seen": "2026-04-25T07:39:04+00:00",
+      "last_seen": "2026-04-26T07:48:14+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -981,7 +981,7 @@
       "trigger_type": "v",
       "expiration_date": "06-MAY-2026 00:00:01",
       "first_seen": "2026-04-21T08:03:34+00:00",
-      "last_seen": "2026-04-25T07:39:04+00:00",
+      "last_seen": "2026-04-26T07:48:14+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1098,7 +1098,7 @@
       "trigger_type": "v",
       "expiration_date": "07-MAY-2026 00:00:01",
       "first_seen": "2026-04-22T08:00:00+00:00",
-      "last_seen": "2026-04-25T07:39:04+00:00",
+      "last_seen": "2026-04-26T07:48:14+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1137,7 +1137,7 @@
       "trigger_type": "v",
       "expiration_date": "07-MAY-2026 00:00:01",
       "first_seen": "2026-04-22T08:00:00+00:00",
-      "last_seen": "2026-04-25T07:39:04+00:00",
+      "last_seen": "2026-04-26T07:48:14+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1176,7 +1176,7 @@
       "trigger_type": "a",
       "expiration_date": "08-MAY-2026 00:00:01",
       "first_seen": "2026-04-23T08:05:29+00:00",
-      "last_seen": "2026-04-25T07:39:04+00:00",
+      "last_seen": "2026-04-26T07:48:14+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1803,6 +1803,16 @@
       "active_zone_ids": [
         "3931",
         "3932",
+        "3933",
+        "3934",
+        "3937",
+        "3938",
+        "3939"
+      ]
+    },
+    {
+      "timestamp": "2026-04-26T07:48:14+00:00",
+      "active_zone_ids": [
         "3933",
         "3934",
         "3937",
