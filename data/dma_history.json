@@ -981,8 +981,8 @@
       "trigger_type": "v",
       "expiration_date": "06-MAY-2026 00:00:01",
       "first_seen": "2026-04-21T08:03:34+00:00",
-      "last_seen": "2026-05-04T08:38:12+00:00",
-      "cancelled": null,
+      "last_seen": "2026-05-05T08:20:34+00:00",
+      "cancelled": "extended",
       "comments": null,
       "geometry": {
         "type": "Polygon",
@@ -1098,7 +1098,7 @@
       "trigger_type": "v",
       "expiration_date": "07-MAY-2026 00:00:01",
       "first_seen": "2026-04-22T08:00:00+00:00",
-      "last_seen": "2026-05-04T08:38:12+00:00",
+      "last_seen": "2026-05-05T08:20:34+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1137,7 +1137,7 @@
       "trigger_type": "v",
       "expiration_date": "07-MAY-2026 00:00:01",
       "first_seen": "2026-04-22T08:00:00+00:00",
-      "last_seen": "2026-05-04T08:38:12+00:00",
+      "last_seen": "2026-05-05T08:20:34+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1176,7 +1176,7 @@
       "trigger_type": "a",
       "expiration_date": "08-MAY-2026 00:00:01",
       "first_seen": "2026-04-23T08:05:29+00:00",
-      "last_seen": "2026-05-04T08:38:12+00:00",
+      "last_seen": "2026-05-05T08:20:34+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1215,7 +1215,7 @@
       "trigger_type": "a",
       "expiration_date": "14-MAY-2026 00:00:01",
       "first_seen": "2026-04-30T08:31:05+00:00",
-      "last_seen": "2026-05-04T08:38:12+00:00",
+      "last_seen": "2026-05-05T08:20:34+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1241,6 +1241,45 @@
             [
               -71.0400000004118,
               42.7200000002502
+            ]
+          ]
+        ]
+      },
+      "status": "active",
+      "gone_since": null
+    },
+    "3941": {
+      "id": 3941,
+      "name": "16nm E Boston MA",
+      "trigger_type": "v",
+      "expiration_date": "18-MAY-2026 00:00:01",
+      "first_seen": "2026-05-05T08:20:34+00:00",
+      "last_seen": "2026-05-05T08:20:34+00:00",
+      "cancelled": null,
+      "comments": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.1299999997705,
+              42.6000000001495
+            ],
+            [
+              -70.3400000000102,
+              42.6000000001495
+            ],
+            [
+              -70.3400000000102,
+              42.0800000000308
+            ],
+            [
+              -71.1299999997705,
+              42.0800000000308
+            ],
+            [
+              -71.1299999997705,
+              42.6000000001495
             ]
           ]
         ]
@@ -1939,6 +1978,17 @@
         "3938",
         "3939",
         "3940"
+      ]
+    },
+    {
+      "timestamp": "2026-05-05T08:20:34+00:00",
+      "active_zone_ids": [
+        "3934",
+        "3937",
+        "3938",
+        "3939",
+        "3940",
+        "3941"
       ]
     }
   ]
