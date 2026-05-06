@@ -1011,8 +1011,8 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "status": "expired_or_cancelled",
+      "gone_since": "2026-05-06T08:35:59+00:00"
     },
     "3935": {
       "id": 3935,
@@ -1098,7 +1098,7 @@
       "trigger_type": "v",
       "expiration_date": "07-MAY-2026 00:00:01",
       "first_seen": "2026-04-22T08:00:00+00:00",
-      "last_seen": "2026-05-05T08:20:34+00:00",
+      "last_seen": "2026-05-06T08:35:59+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1137,7 +1137,7 @@
       "trigger_type": "v",
       "expiration_date": "07-MAY-2026 00:00:01",
       "first_seen": "2026-04-22T08:00:00+00:00",
-      "last_seen": "2026-05-05T08:20:34+00:00",
+      "last_seen": "2026-05-06T08:35:59+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1176,7 +1176,7 @@
       "trigger_type": "a",
       "expiration_date": "08-MAY-2026 00:00:01",
       "first_seen": "2026-04-23T08:05:29+00:00",
-      "last_seen": "2026-05-05T08:20:34+00:00",
+      "last_seen": "2026-05-06T08:35:59+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1215,7 +1215,7 @@
       "trigger_type": "a",
       "expiration_date": "14-MAY-2026 00:00:01",
       "first_seen": "2026-04-30T08:31:05+00:00",
-      "last_seen": "2026-05-05T08:20:34+00:00",
+      "last_seen": "2026-05-06T08:35:59+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1254,7 +1254,7 @@
       "trigger_type": "v",
       "expiration_date": "18-MAY-2026 00:00:01",
       "first_seen": "2026-05-05T08:20:34+00:00",
-      "last_seen": "2026-05-05T08:20:34+00:00",
+      "last_seen": "2026-05-06T08:35:59+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1984,6 +1984,16 @@
       "timestamp": "2026-05-05T08:20:34+00:00",
       "active_zone_ids": [
         "3934",
+        "3937",
+        "3938",
+        "3939",
+        "3940",
+        "3941"
+      ]
+    },
+    {
+      "timestamp": "2026-05-06T08:35:59+00:00",
+      "active_zone_ids": [
         "3937",
         "3938",
         "3939",
