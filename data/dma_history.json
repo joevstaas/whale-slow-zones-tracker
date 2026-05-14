@@ -1245,8 +1245,8 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "status": "expired_or_cancelled",
+      "gone_since": "2026-05-14T08:45:53+00:00"
     },
     "3941": {
       "id": 3941,
@@ -1254,7 +1254,7 @@
       "trigger_type": "v",
       "expiration_date": "18-MAY-2026 00:00:01",
       "first_seen": "2026-05-05T08:20:34+00:00",
-      "last_seen": "2026-05-13T08:52:52+00:00",
+      "last_seen": "2026-05-14T08:45:53+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -2048,6 +2048,12 @@
       "timestamp": "2026-05-13T08:52:52+00:00",
       "active_zone_ids": [
         "3940",
+        "3941"
+      ]
+    },
+    {
+      "timestamp": "2026-05-14T08:45:53+00:00",
+      "active_zone_ids": [
         "3941"
       ]
     }
