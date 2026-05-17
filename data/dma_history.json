@@ -1254,7 +1254,7 @@
       "trigger_type": "v",
       "expiration_date": "18-MAY-2026 00:00:01",
       "first_seen": "2026-05-05T08:20:34+00:00",
-      "last_seen": "2026-05-16T08:11:47+00:00",
+      "last_seen": "2026-05-17T08:28:34+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -2065,6 +2065,12 @@
     },
     {
       "timestamp": "2026-05-16T08:11:47+00:00",
+      "active_zone_ids": [
+        "3941"
+      ]
+    },
+    {
+      "timestamp": "2026-05-17T08:28:34+00:00",
       "active_zone_ids": [
         "3941"
       ]
