@@ -2094,6 +2094,10 @@
     {
       "timestamp": "2026-05-22T09:40:02+00:00",
       "active_zone_ids": []
+    },
+    {
+      "timestamp": "2026-05-23T08:27:00+00:00",
+      "active_zone_ids": []
     }
   ]
 }
