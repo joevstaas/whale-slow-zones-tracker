@@ -1799,8 +1799,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3944; Cancelled: None; Status: active; First seen: 2026-06-12T10:23:56+00:00; Last seen: 2026-06-16T11:24:22+00:00",
-        "updated": "2026-06-16T11:24:22+00:00"
+        "geometry_notes": "NEFSC ID: 3944; Cancelled: None; Status: active; First seen: 2026-06-12T10:23:56+00:00; Last seen: 2026-06-17T11:08:27+00:00",
+        "updated": "2026-06-17T11:08:27+00:00"
       }
     }
   ]
