@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.50000000001,
+              39.33000000022
+            ],
+            [
+              -73.8500000001504,
+              39.33000000022
+            ],
+            [
+              -73.8500000001504,
+              38.820000000331
+            ],
+            [
+              -74.50000000001,
+              38.820000000331
+            ],
+            [
+              -74.50000000001,
+              39.33000000022
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "COMMENTS": null,
+        "NAME": "20nm SE Atlantic City NJ",
+        "ID": 3944,
+        "EXPDATE": "26-JUN-2026 00:00:01",
+        "TRIGGERTYPE": "a",
+        "CANCELLED": null,
+        "Shape__Area": 5291607888.125,
+        "Shape__Length": 290977.86859999597
+      }
+    }
+  ]
+}
