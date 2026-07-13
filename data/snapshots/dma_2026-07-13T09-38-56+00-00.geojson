@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.6700000003535,
+              41.2499999998446
+            ],
+            [
+              -69.9899999998094,
+              41.2499999998446
+            ],
+            [
+              -69.9999999997381,
+              40.7500000002093
+            ],
+            [
+              -70.6600000004248,
+              40.7500000002093
+            ],
+            [
+              -70.6700000003535,
+              41.2499999998446
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "COMMENTS": null,
+        "NAME": "20nm SW Nantucket MA",
+        "ID": 3945,
+        "EXPDATE": "14-JUL-2026 00:00:01",
+        "TRIGGERTYPE": "a",
+        "CANCELLED": null,
+        "Shape__Area": 5500609659.425781,
+        "Shape__Length": 296685.8664861759
+      }
+    }
+  ]
+}
