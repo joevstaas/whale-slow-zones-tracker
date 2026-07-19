@@ -1855,6 +1855,59 @@
         "geometry_notes": "NEFSC ID: 3945; Cancelled: None; Status: expired_or_cancelled; First seen: 2026-06-30T09:52:37+00:00; Last seen: 2026-07-13T09:38:56+00:00; Gone since: 2026-07-14T08:19:04+00:00",
         "updated": "2026-07-13T09:38:56+00:00"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.5699999995716,
+              37.4200000003369
+            ],
+            [
+              -74.9399999995695,
+              37.4200000003369
+            ],
+            [
+              -74.9399999995695,
+              36.9099999997508
+            ],
+            [
+              -75.5699999995716,
+              36.9099999997508
+            ],
+            [
+              -75.5699999995716,
+              37.4200000003369
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "fid": "NEFSC-3946",
+        "name": "39nm NE Virginia Beach VA",
+        "measure_type": "NEFSC Right Whale Slow Zone",
+        "mandatory": false,
+        "description": null,
+        "country": null,
+        "seasonality": null,
+        "start": "2026-07-19",
+        "end": "2026-08-03",
+        "speed_limit_kn": 10.0,
+        "dynamic": true,
+        "activation_trigger": "a",
+        "distance_min_m": null,
+        "vessel_len_min_m": null,
+        "taxons": "",
+        "source_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/NEFSC_Dynamic_Management_Areas/FeatureServer/0",
+        "s127_feature": "RestrictedAreaRegulatory",
+        "s127_feature_subcat": "speed restricted",
+        "provided_coordinates": "",
+        "geometry_notes": "NEFSC ID: 3946; Cancelled: None; Status: active; First seen: 2026-07-19T08:27:32+00:00; Last seen: 2026-07-19T08:27:32+00:00",
+        "updated": "2026-07-19T08:27:32+00:00"
+      }
     }
   ]
 }
