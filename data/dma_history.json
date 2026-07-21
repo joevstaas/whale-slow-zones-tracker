@@ -1371,7 +1371,7 @@
       "trigger_type": "a",
       "expiration_date": "03-AUG-2026 00:00:01",
       "first_seen": "2026-07-19T08:27:32+00:00",
-      "last_seen": "2026-07-20T09:26:32+00:00",
+      "last_seen": "2026-07-21T08:38:06+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -2504,6 +2504,12 @@
     },
     {
       "timestamp": "2026-07-20T09:26:32+00:00",
+      "active_zone_ids": [
+        "3946"
+      ]
+    },
+    {
+      "timestamp": "2026-07-21T08:38:06+00:00",
       "active_zone_ids": [
         "3946"
       ]
