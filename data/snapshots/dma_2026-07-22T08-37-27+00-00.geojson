@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.5699999995716,
+              37.4200000003369
+            ],
+            [
+              -74.9399999995695,
+              37.4200000003369
+            ],
+            [
+              -74.9399999995695,
+              36.9099999997508
+            ],
+            [
+              -75.5699999995716,
+              36.9099999997508
+            ],
+            [
+              -75.5699999995716,
+              37.4200000003369
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "COMMENTS": null,
+        "NAME": "39nm NE Virginia Beach VA",
+        "ID": 3946,
+        "EXPDATE": "03-AUG-2026 00:00:01",
+        "TRIGGERTYPE": "a",
+        "CANCELLED": null,
+        "Shape__Area": 4996350472.1171875,
+        "Shape__Length": 282748.20899999887
+      }
+    }
+  ]
+}
