@@ -2653,6 +2653,10 @@
     {
       "timestamp": "2026-08-19T06:53:32+00:00",
       "active_zone_ids": []
+    },
+    {
+      "timestamp": "2026-08-20T06:55:22+00:00",
+      "active_zone_ids": []
     }
   ]
 }
