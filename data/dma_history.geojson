@@ -1908,6 +1908,59 @@
         "geometry_notes": "NEFSC ID: 3946; Cancelled: None; Status: expired_or_cancelled; First seen: 2026-07-19T08:27:32+00:00; Last seen: 2026-08-02T08:31:39+00:00; Gone since: 2026-08-03T09:57:28+00:00",
         "updated": "2026-08-02T08:31:39+00:00"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.6700000003535,
+              41.2499999998446
+            ],
+            [
+              -69.9899999998094,
+              41.2499999998446
+            ],
+            [
+              -69.9999999997381,
+              40.7500000002093
+            ],
+            [
+              -70.6600000004248,
+              40.7500000002093
+            ],
+            [
+              -70.6700000003535,
+              41.2499999998446
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "fid": "NEFSC-3947",
+        "name": "20nm SW Nantucket MA",
+        "measure_type": "NEFSC Right Whale Slow Zone",
+        "mandatory": false,
+        "description": null,
+        "country": null,
+        "seasonality": null,
+        "start": "2026-08-31",
+        "end": "2026-09-14",
+        "speed_limit_kn": 10.0,
+        "dynamic": true,
+        "activation_trigger": "a",
+        "distance_min_m": null,
+        "vessel_len_min_m": null,
+        "taxons": "",
+        "source_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/NEFSC_Dynamic_Management_Areas/FeatureServer/0",
+        "s127_feature": "RestrictedAreaRegulatory",
+        "s127_feature_subcat": "speed restricted",
+        "provided_coordinates": "",
+        "geometry_notes": "NEFSC ID: 3947; Cancelled: None; Status: active; First seen: 2026-08-31T13:19:02+00:00; Last seen: 2026-08-31T13:19:02+00:00",
+        "updated": "2026-08-31T13:19:02+00:00"
+      }
     }
   ]
 }
