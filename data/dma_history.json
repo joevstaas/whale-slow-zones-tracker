@@ -1440,8 +1440,8 @@
           ]
         ]
       },
-      "status": "active",
-      "gone_since": null
+      "status": "expired_or_cancelled",
+      "gone_since": "2026-09-14T12:25:20+00:00"
     }
   },
   "polls": [
@@ -2820,6 +2820,10 @@
       "active_zone_ids": [
         "3947"
       ]
+    },
+    {
+      "timestamp": "2026-09-14T12:25:20+00:00",
+      "active_zone_ids": []
     }
   ]
 }
