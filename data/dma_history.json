@@ -2856,6 +2856,10 @@
     {
       "timestamp": "2026-09-22T11:20:07+00:00",
       "active_zone_ids": []
+    },
+    {
+      "timestamp": "2026-09-23T11:15:01+00:00",
+      "active_zone_ids": []
     }
   ]
 }
