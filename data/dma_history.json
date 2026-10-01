@@ -2888,6 +2888,10 @@
     {
       "timestamp": "2026-09-30T12:18:46+00:00",
       "active_zone_ids": []
+    },
+    {
+      "timestamp": "2026-10-01T12:53:44+00:00",
+      "active_zone_ids": []
     }
   ]
 }
