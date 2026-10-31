@@ -3008,6 +3008,10 @@
     {
       "timestamp": "2026-10-30T12:34:26+00:00",
       "active_zone_ids": []
+    },
+    {
+      "timestamp": "2026-10-31T12:00:21+00:00",
+      "active_zone_ids": []
     }
   ]
 }
