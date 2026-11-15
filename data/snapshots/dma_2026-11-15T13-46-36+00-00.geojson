@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.6700000003535,
+              42.1700000002366
+            ],
+            [
+              -69.9899999998094,
+              42.1700000002366
+            ],
+            [
+              -69.9899999998094,
+              41.6700000000521
+            ],
+            [
+              -70.6700000003535,
+              41.6700000000521
+            ],
+            [
+              -70.6700000003535,
+              42.1700000002366
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "COMMENTS": null,
+        "NAME": "Cape Cod Bay",
+        "ID": 3948,
+        "EXPDATE": "18-NOV-2026 00:00:01",
+        "TRIGGERTYPE": "a",
+        "CANCELLED": null,
+        "Shape__Area": 5662474405.1484375,
+        "Shape__Length": 301002.957600005
+      }
+    }
+  ]
+}
