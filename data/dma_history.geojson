@@ -2011,8 +2011,114 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3948; Cancelled: None; Status: active; First seen: 2026-11-04T14:10:45+00:00; Last seen: 2026-11-15T13:46:36+00:00",
-        "updated": "2026-11-15T13:46:36+00:00"
+        "geometry_notes": "NEFSC ID: 3948; Cancelled: extended; Status: active; First seen: 2026-11-04T14:10:45+00:00; Last seen: 2026-11-16T15:26:30+00:00",
+        "updated": "2026-11-16T15:26:30+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.6700000003535,
+              42.1700000002366
+            ],
+            [
+              -69.9899999998094,
+              42.1700000002366
+            ],
+            [
+              -69.9899999998094,
+              41.6700000000521
+            ],
+            [
+              -70.6700000003535,
+              41.6700000000521
+            ],
+            [
+              -70.6700000003535,
+              42.1700000002366
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "fid": "NEFSC-3949",
+        "name": "Cape Cod Bay",
+        "measure_type": "NEFSC Right Whale Slow Zone",
+        "mandatory": false,
+        "description": null,
+        "country": null,
+        "seasonality": null,
+        "start": "2026-11-16",
+        "end": "2026-11-30",
+        "speed_limit_kn": 10.0,
+        "dynamic": true,
+        "activation_trigger": "a",
+        "distance_min_m": null,
+        "vessel_len_min_m": null,
+        "taxons": "",
+        "source_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/NEFSC_Dynamic_Management_Areas/FeatureServer/0",
+        "s127_feature": "RestrictedAreaRegulatory",
+        "s127_feature_subcat": "speed restricted",
+        "provided_coordinates": "",
+        "geometry_notes": "NEFSC ID: 3949; Cancelled: None; Status: active; First seen: 2026-11-16T15:26:30+00:00; Last seen: 2026-11-16T15:26:30+00:00",
+        "updated": "2026-11-16T15:26:30+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9500000003361,
+              40.3499999997957
+            ],
+            [
+              -73.2899999996495,
+              40.3499999997957
+            ],
+            [
+              -73.2899999996495,
+              39.8399999998099
+            ],
+            [
+              -73.9500000003361,
+              39.8399999998099
+            ],
+            [
+              -73.9500000003361,
+              40.3499999997957
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "fid": "NEFSC-3950",
+        "name": "44nm S New York NY",
+        "measure_type": "NEFSC Right Whale Slow Zone",
+        "mandatory": false,
+        "description": null,
+        "country": null,
+        "seasonality": null,
+        "start": "2026-11-16",
+        "end": "2026-11-30",
+        "speed_limit_kn": 10.0,
+        "dynamic": true,
+        "activation_trigger": "a",
+        "distance_min_m": null,
+        "vessel_len_min_m": null,
+        "taxons": "",
+        "source_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/NEFSC_Dynamic_Management_Areas/FeatureServer/0",
+        "s127_feature": "RestrictedAreaRegulatory",
+        "s127_feature_subcat": "speed restricted",
+        "provided_coordinates": "",
+        "geometry_notes": "NEFSC ID: 3950; Cancelled: None; Status: active; First seen: 2026-11-16T15:26:30+00:00; Last seen: 2026-11-16T15:26:30+00:00",
+        "updated": "2026-11-16T15:26:30+00:00"
       }
     }
   ]
