@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.6700000003535,
+              42.1700000002366
+            ],
+            [
+              -69.9899999998094,
+              42.1700000002366
+            ],
+            [
+              -69.9899999998094,
+              41.6700000000521
+            ],
+            [
+              -70.6700000003535,
+              41.6700000000521
+            ],
+            [
+              -70.6700000003535,
+              42.1700000002366
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "COMMENTS": null,
+        "NAME": "Cape Cod Bay",
+        "ID": 3949,
+        "EXPDATE": "30-NOV-2026 00:00:01",
+        "TRIGGERTYPE": "a",
+        "CANCELLED": null,
+        "Shape__Area": 5662474405.1484375,
+        "Shape__Length": 301002.957600005
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9500000003361,
+              40.3499999997957
+            ],
+            [
+              -73.2899999996495,
+              40.3499999997957
+            ],
+            [
+              -73.2899999996495,
+              39.8399999998099
+            ],
+            [
+              -73.9500000003361,
+              39.8399999998099
+            ],
+            [
+              -73.9500000003361,
+              40.3499999997957
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "COMMENTS": null,
+        "NAME": "44nm S New York NY",
+        "ID": 3950,
+        "EXPDATE": "30-NOV-2026 00:00:01",
+        "TRIGGERTYPE": "a",
+        "CANCELLED": null,
+        "Shape__Area": 5452695899.40625,
+        "Shape__Length": 295373.24500000477
+      }
+    }
+  ]
+}
