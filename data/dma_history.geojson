@@ -2064,8 +2064,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3949; Cancelled: None; Status: active; First seen: 2026-11-16T15:26:30+00:00; Last seen: 2026-11-19T15:33:04+00:00",
-        "updated": "2026-11-19T15:33:04+00:00"
+        "geometry_notes": "NEFSC ID: 3949; Cancelled: None; Status: active; First seen: 2026-11-16T15:26:30+00:00; Last seen: 2026-11-20T15:12:18+00:00",
+        "updated": "2026-11-20T15:12:18+00:00"
       }
     },
     {
@@ -2117,8 +2117,61 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3950; Cancelled: None; Status: active; First seen: 2026-11-16T15:26:30+00:00; Last seen: 2026-11-19T15:33:04+00:00",
-        "updated": "2026-11-19T15:33:04+00:00"
+        "geometry_notes": "NEFSC ID: 3950; Cancelled: None; Status: active; First seen: 2026-11-16T15:26:30+00:00; Last seen: 2026-11-20T15:12:18+00:00",
+        "updated": "2026-11-20T15:12:18+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.6199999996907,
+              44.1200000002048
+            ],
+            [
+              -67.9100000002586,
+              44.1200000002048
+            ],
+            [
+              -67.9200000001874,
+              43.6099999998196
+            ],
+            [
+              -68.6199999996907,
+              43.6099999998196
+            ],
+            [
+              -68.6199999996907,
+              44.1200000002048
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "fid": "NEFSC-3951",
+        "name": "78nm SW Bay of Fundy Canada",
+        "measure_type": "NEFSC Right Whale Slow Zone",
+        "mandatory": false,
+        "description": null,
+        "country": null,
+        "seasonality": null,
+        "start": "2026-11-20",
+        "end": "2026-12-04",
+        "speed_limit_kn": 10.0,
+        "dynamic": true,
+        "activation_trigger": "a",
+        "distance_min_m": null,
+        "vessel_len_min_m": null,
+        "taxons": "",
+        "source_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/NEFSC_Dynamic_Management_Areas/FeatureServer/0",
+        "s127_feature": "RestrictedAreaRegulatory",
+        "s127_feature_subcat": "speed restricted",
+        "provided_coordinates": "",
+        "geometry_notes": "NEFSC ID: 3951; Cancelled: None; Status: active; First seen: 2026-11-20T15:12:18+00:00; Last seen: 2026-11-20T15:12:18+00:00",
+        "updated": "2026-11-20T15:12:18+00:00"
       }
     }
   ]
