@@ -1488,7 +1488,7 @@
       "trigger_type": "a",
       "expiration_date": "30-NOV-2026 00:00:01",
       "first_seen": "2026-11-16T15:26:30+00:00",
-      "last_seen": "2026-11-22T14:24:09+00:00",
+      "last_seen": "2026-11-23T17:50:00+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1527,7 +1527,7 @@
       "trigger_type": "a",
       "expiration_date": "30-NOV-2026 00:00:01",
       "first_seen": "2026-11-16T15:26:30+00:00",
-      "last_seen": "2026-11-22T14:24:09+00:00",
+      "last_seen": "2026-11-23T17:50:00+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1566,7 +1566,7 @@
       "trigger_type": "a",
       "expiration_date": "04-DEC-2026 00:00:01",
       "first_seen": "2026-11-20T15:12:18+00:00",
-      "last_seen": "2026-11-22T14:24:09+00:00",
+      "last_seen": "2026-11-23T17:50:00+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -3301,6 +3301,14 @@
     },
     {
       "timestamp": "2026-11-22T14:24:09+00:00",
+      "active_zone_ids": [
+        "3949",
+        "3950",
+        "3951"
+      ]
+    },
+    {
+      "timestamp": "2026-11-23T17:50:00+00:00",
       "active_zone_ids": [
         "3949",
         "3950",

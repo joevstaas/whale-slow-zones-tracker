@@ -2064,8 +2064,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3949; Cancelled: None; Status: active; First seen: 2026-11-16T15:26:30+00:00; Last seen: 2026-11-22T14:24:09+00:00",
-        "updated": "2026-11-22T14:24:09+00:00"
+        "geometry_notes": "NEFSC ID: 3949; Cancelled: None; Status: active; First seen: 2026-11-16T15:26:30+00:00; Last seen: 2026-11-23T17:50:00+00:00",
+        "updated": "2026-11-23T17:50:00+00:00"
       }
     },
     {
@@ -2117,8 +2117,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3950; Cancelled: None; Status: active; First seen: 2026-11-16T15:26:30+00:00; Last seen: 2026-11-22T14:24:09+00:00",
-        "updated": "2026-11-22T14:24:09+00:00"
+        "geometry_notes": "NEFSC ID: 3950; Cancelled: None; Status: active; First seen: 2026-11-16T15:26:30+00:00; Last seen: 2026-11-23T17:50:00+00:00",
+        "updated": "2026-11-23T17:50:00+00:00"
       }
     },
     {
@@ -2170,8 +2170,8 @@
         "s127_feature": "RestrictedAreaRegulatory",
         "s127_feature_subcat": "speed restricted",
         "provided_coordinates": "",
-        "geometry_notes": "NEFSC ID: 3951; Cancelled: None; Status: active; First seen: 2026-11-20T15:12:18+00:00; Last seen: 2026-11-22T14:24:09+00:00",
-        "updated": "2026-11-22T14:24:09+00:00"
+        "geometry_notes": "NEFSC ID: 3951; Cancelled: None; Status: active; First seen: 2026-11-20T15:12:18+00:00; Last seen: 2026-11-23T17:50:00+00:00",
+        "updated": "2026-11-23T17:50:00+00:00"
       }
     }
   ]
