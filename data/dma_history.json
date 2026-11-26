@@ -1488,8 +1488,8 @@
       "trigger_type": "a",
       "expiration_date": "30-NOV-2026 00:00:01",
       "first_seen": "2026-11-16T15:26:30+00:00",
-      "last_seen": "2026-11-25T17:00:12+00:00",
-      "cancelled": null,
+      "last_seen": "2026-11-26T16:41:34+00:00",
+      "cancelled": "extended",
       "comments": null,
       "geometry": {
         "type": "Polygon",
@@ -1527,7 +1527,7 @@
       "trigger_type": "a",
       "expiration_date": "30-NOV-2026 00:00:01",
       "first_seen": "2026-11-16T15:26:30+00:00",
-      "last_seen": "2026-11-25T17:00:12+00:00",
+      "last_seen": "2026-11-26T16:41:34+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1566,7 +1566,7 @@
       "trigger_type": "a",
       "expiration_date": "04-DEC-2026 00:00:01",
       "first_seen": "2026-11-20T15:12:18+00:00",
-      "last_seen": "2026-11-25T17:00:12+00:00",
+      "last_seen": "2026-11-26T16:41:34+00:00",
       "cancelled": null,
       "comments": null,
       "geometry": {
@@ -1592,6 +1592,84 @@
             [
               -68.6199999996907,
               44.1200000002048
+            ]
+          ]
+        ]
+      },
+      "status": "active",
+      "gone_since": null
+    },
+    "3952": {
+      "id": 3952,
+      "name": "Cape Cod Bay",
+      "trigger_type": "a",
+      "expiration_date": "10-DEC-2026 00:00:01",
+      "first_seen": "2026-11-26T16:41:34+00:00",
+      "last_seen": "2026-11-26T16:41:34+00:00",
+      "cancelled": null,
+      "comments": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.6700000003535,
+              42.1700000002366
+            ],
+            [
+              -69.9899999998094,
+              42.1700000002366
+            ],
+            [
+              -69.9899999998094,
+              41.6700000000521
+            ],
+            [
+              -70.6700000003535,
+              41.6700000000521
+            ],
+            [
+              -70.6700000003535,
+              42.1700000002366
+            ]
+          ]
+        ]
+      },
+      "status": "active",
+      "gone_since": null
+    },
+    "3953": {
+      "id": 3953,
+      "name": "56nm S Bar Harbor ME",
+      "trigger_type": "a",
+      "expiration_date": "11-DEC-2026 00:00:01",
+      "first_seen": "2026-11-26T16:41:34+00:00",
+      "last_seen": "2026-11-26T16:41:34+00:00",
+      "cancelled": null,
+      "comments": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.8100000001334,
+              43.7299999998184
+            ],
+            [
+              -68.1099999997317,
+              43.7299999998184
+            ],
+            [
+              -68.1099999997317,
+              43.230000000155
+            ],
+            [
+              -68.8000000002046,
+              43.230000000155
+            ],
+            [
+              -68.8100000001334,
+              43.7299999998184
             ]
           ]
         ]
@@ -3329,6 +3407,16 @@
         "3949",
         "3950",
         "3951"
+      ]
+    },
+    {
+      "timestamp": "2026-11-26T16:41:34+00:00",
+      "active_zone_ids": [
+        "3949",
+        "3950",
+        "3951",
+        "3952",
+        "3953"
       ]
     }
   ]
